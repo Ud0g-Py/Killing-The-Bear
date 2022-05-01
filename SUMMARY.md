@@ -35,6 +35,11 @@
 * [Sectors](carbon-spider/sectors.md)
 * [Campaigns](carbon-spider/campaigns.md)
 
+## Network Battalion 65
+
+* [Campaigns](network-battalion-65/campaigns.md)
+* [Activity](network-battalion-65/activity.md)
+
 ## Malware
 
 * [Generic](malware/generic/README.md)
@@ -105,8 +110,3 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
-
-## Network Battalion 65
-
-* [Campaigns](network-battalion-65/campaigns.md)
-* [Activity](network-battalion-65/activity.md)
