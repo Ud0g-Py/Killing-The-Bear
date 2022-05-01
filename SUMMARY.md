@@ -40,6 +40,10 @@
 * [Campaigns](network-battalion-65/campaigns.md)
 * [Activity](network-battalion-65/activity.md)
 
+## Stormous
+
+* [Activity](stormous/activity.md)
+
 ## Malware
 
 * [Generic](malware/generic/README.md)
