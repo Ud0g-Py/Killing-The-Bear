@@ -1,7 +1,0 @@
----
-cover: ../.gitbook/assets/Adversaries_Carbon_Spider.png
-coverY: 0
----
-
-# CVEs
-

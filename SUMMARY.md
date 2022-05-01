@@ -20,34 +20,12 @@
 
 ## DRAGONFLY 2.0
 
-* [Names](dragonfly-2.0/names.md)
-* [Description](dragonfly-2.0/description.md)
-* [Countries](dragonfly-2.0/countries.md)
-* [Sectors](dragonfly-2.0/sectors.md)
-* [TTPs](dragonfly-2.0/ttps.md)
-* [Malware](dragonfly-2.0/malware.md)
-* [CVEs](dragonfly-2.0/cves.md)
-* [Campaigns](dragonfly-2.0/campaigns.md)
 * [Activity](dragonfly-2.0/activity.md)
-* [Damage Done to Them](dragonfly-2.0/damage-done-to-them.md)
-* [Defense Against Them](dragonfly-2.0/defense-against-them.md)
 * [Library](dragonfly-2.0/library.md)
 
 ## Lapsus
 
-* [Names](lapsus/names.md)
-* [Description](lapsus/description.md)
-* [Countries](lapsus/countries.md)
-* [Sectors](lapsus/sectors.md)
-* [TTPs](lapsus/ttps.md)
-* [Malware](lapsus/malware.md)
 * [IOCs](lapsus/iocs.md)
-* [CVEs](lapsus/cves.md)
-* [Campaigns](lapsus/campaigns.md)
-* [Activity](lapsus/activity.md)
-* [Damage Done to Them](lapsus/damage-done-to-them.md)
-* [Defense Against Them](lapsus/defense-against-them.md)
-* [Library](lapsus/library.md)
 
 ## Carbon Spider
 
@@ -55,15 +33,7 @@
 * [Description](carbon-spider/description.md)
 * [Countries](carbon-spider/countries.md)
 * [Sectors](carbon-spider/sectors.md)
-* [TTPs](carbon-spider/ttps.md)
-* [Malware](carbon-spider/malware.md)
-* [IOCs](carbon-spider/iocs.md)
-* [CVEs](carbon-spider/cves.md)
 * [Campaigns](carbon-spider/campaigns.md)
-* [Activity](carbon-spider/activity.md)
-* [Damage Done to Them](carbon-spider/damage-done-to-them.md)
-* [Defense Against Them](carbon-spider/defense-against-them.md)
-* [Library](carbon-spider/library.md)
 
 ## Malware
 
@@ -132,18 +102,6 @@
 * [Ransomware Trends 2021](campaigns/ransomware-trends-2021/README.md)
   * [IOCs](campaigns/ransomware-trends-2021/iocs.md)
 
-## \[TEMPLATE]
+## 📑 Newsletter
 
-* [Names](template/names.md)
-* [Description](template/description.md)
-* [Countries](template/countries.md)
-* [Sectors](template/sectors.md)
-* [TTPs](template/ttps.md)
-* [Malware](template/malware.md)
-* [IOCs](template/iocs.md)
-* [CVEs](template/cves.md)
-* [Campaigns](template/campaigns.md)
-* [Activity](template/activity.md)
-* [Damage Done to Them](template/damage-done-to-them.md)
-* [Defense Against Them](template/defense-against-them.md)
-* [Library](template/library.md)
+* [2022](newsletter/2022.md)

@@ -9,5 +9,5 @@ coverY: 114.18861512319457
 
 ### Oct
 
-#### [Six Russian GRU Officers Charged in Connection with Worldwide Deployment of Destructive Malware and Other Disruptive Actions in Cyberspace](damage-done-to-them.md#undefined)
+#### [Six Russian GRU Officers Charged in Connection with Worldwide Deployment of Destructive Malware and Other Disruptive Actions in Cyberspace](https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and)
 
