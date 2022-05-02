@@ -61,6 +61,9 @@
   * [IOCs](campaigns/hypervisor-jackpotting/iocs.md)
 * [Ransomware Trends 2021](campaigns/ransomware-trends-2021/README.md)
   * [IOCs](campaigns/ransomware-trends-2021/iocs.md)
+* [RIG Exploit Kit Redline](campaigns/rig-exploit-kit-redline/README.md)
+  * [TTPs](campaigns/rig-exploit-kit-redline/ttps.md)
+  * [IOCs](campaigns/rig-exploit-kit-redline/iocs.md)
 
 ## ☣ Malware
 
@@ -84,6 +87,8 @@
 * [Gold Dragon](malware/gold-dragon/README.md)
   * [IOCs](malware/gold-dragon/iocs.md)
 * [Karagany](malware/karagany.md)
+* [RedLine](malware/redline/README.md)
+  * [Analysis](malware/redline/analysis.md)
 * [Oldrea](malware/oldrea.md)
 * [Dorshel](malware/dorshel.md)
 * [Havex](malware/havex.md)
