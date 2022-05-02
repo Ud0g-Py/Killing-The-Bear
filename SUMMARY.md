@@ -44,6 +44,12 @@
 
 * [Activity](stormous/activity.md)
 
+## Keksec
+
+* [Names](keksec/names.md)
+* [Activity](keksec/activity.md)
+* [Malware](keksec/malware.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -67,6 +73,9 @@
   * [TTPs](malware/mirai/ttps.md)
   * [IOCs](malware/mirai/iocs.md)
   * [CVEs](malware/mirai/cves.md)
+* [EnemyBot](malware/enemybot/README.md)
+  * [TTPs](malware/enemybot/ttps.md)
+  * [CVEs](malware/enemybot/cves.md)
 * [Goodor](malware/goodor/README.md)
   * [IOCs](malware/goodor/iocs.md)
   * [Yara](malware/goodor/yara.md)
