@@ -44,10 +44,26 @@
 
 * [Activity](stormous/activity.md)
 
-## Malware
+## ⚔ Campaigns
 
+* [Honeypots](campaigns/honeypots/README.md)
+  * [IOCs](campaigns/honeypots/iocs.md)
+* [Russia-Ukraine War](campaigns/russia-ukraine-war/README.md)
+  * [IOCs](campaigns/russia-ukraine-war/iocs.md)
+* [Accellion FTA](campaigns/accellion-fta.md)
+* [Hypervisor Jackpotting](campaigns/hypervisor-jackpotting/README.md)
+  * [IOCs](campaigns/hypervisor-jackpotting/iocs.md)
+* [Ransomware Trends 2021](campaigns/ransomware-trends-2021/README.md)
+  * [IOCs](campaigns/ransomware-trends-2021/iocs.md)
+
+## ☣ Malware
+
+* [NJRat](malware/njrat/README.md)
+  * [IOCs](malware/njrat/iocs.md)
 * [Generic](malware/generic/README.md)
   * [IOCs](malware/generic/iocs.md)
+* [Mirai](malware/mirai/README.md)
+  * [IOCs](malware/mirai/iocs.md)
 * [Goodor](malware/goodor/README.md)
   * [IOCs](malware/goodor/iocs.md)
   * [Yara](malware/goodor/yara.md)
@@ -82,7 +98,7 @@
   * [IOCs](malware/lockbit/iocs.md)
   * [Yara](malware/lockbit/yara.md)
 
-## Tools
+## 🛠 Tools
 
 * [Commix](tools/commix.md)
 * [CrackMapExec](tools/crackmapexec.md)
@@ -98,18 +114,6 @@
 * [Sublist3r](tools/sublist3r.md)
 * [Wpscan](tools/wpscan.md)
 * [WSO](tools/wso.md)
-
-## Campaigns
-
-* [Honeypots](campaigns/honeypots/README.md)
-  * [IOCs](campaigns/honeypots/iocs.md)
-* [Russia-Ukraine War](campaigns/russia-ukraine-war/README.md)
-  * [IOCs](campaigns/russia-ukraine-war/iocs.md)
-* [Accellion FTA](campaigns/accellion-fta.md)
-* [Hypervisor Jackpotting](campaigns/hypervisor-jackpotting/README.md)
-  * [IOCs](campaigns/hypervisor-jackpotting/iocs.md)
-* [Ransomware Trends 2021](campaigns/ransomware-trends-2021/README.md)
-  * [IOCs](campaigns/ransomware-trends-2021/iocs.md)
 
 ## 📑 Newsletter
 
