@@ -62,6 +62,20 @@
 * [Activity](ricochet-chollima/activity.md)
 * [Malware](ricochet-chollima/malware.md)
 
+## Revil
+
+* [TTPs](revil/ttps.md)
+* [Activity](revil/activity.md)
+
+## Mummy Spider
+
+* [Description](mummy-spider/description.md)
+* [Malware](mummy-spider/malware.md)
+
+## Mustang Panda
+
+* [Description](mustang-panda/description.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -76,6 +90,7 @@
 * [RIG Exploit Kit Redline](campaigns/rig-exploit-kit-redline/README.md)
   * [TTPs](campaigns/rig-exploit-kit-redline/ttps.md)
   * [IOCs](campaigns/rig-exploit-kit-redline/iocs.md)
+* [Conti and Hive](campaigns/conti-and-hive.md)
 
 ## ☣ Malware
 
@@ -99,6 +114,9 @@
 * [Gold Dragon](malware/gold-dragon/README.md)
   * [IOCs](malware/gold-dragon/iocs.md)
 * [Goldbackdoor](malware/goldbackdoor.md)
+* [IceID](malware/iceid.md)
+* [Gootkit](malware/gootkit.md)
+* [Trickbot](malware/trickbot.md)
 * [Karagany](malware/karagany.md)
 * [RedLine](malware/redline/README.md)
   * [Analysis](malware/redline/analysis.md)
@@ -122,7 +140,9 @@
 * [Prynt Stealer](malware/prynt-stealer/README.md)
   * [IOCs](malware/prynt-stealer/iocs.md)
 * [Quantum](malware/quantum/README.md)
+  * [TTPs](malware/quantum/ttps.md)
   * [IOCs](malware/quantum/iocs.md)
+  * [Activity](malware/quantum/activity.md)
   * [Yara](malware/quantum/yara.md)
 * [Lockbit](malware/lockbit/README.md)
   * [IOCs](malware/lockbit/iocs.md)
@@ -148,3 +168,7 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
+
+## Override Panda
+
+* [Activity](override-panda/activity.md)
