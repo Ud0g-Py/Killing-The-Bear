@@ -50,6 +50,18 @@
 * [Activity](keksec/activity.md)
 * [Malware](keksec/malware.md)
 
+## Silent Chollima
+
+* [TTPs](silent-chollima/ttps.md)
+* [IOCs](silent-chollima/iocs.md)
+* [Activity](silent-chollima/activity.md)
+
+## Ricochet Chollima
+
+* [TTPs](ricochet-chollima/ttps.md)
+* [Activity](ricochet-chollima/activity.md)
+* [Malware](ricochet-chollima/malware.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -86,6 +98,7 @@
   * [IOCs](malware/gootloader/iocs.md)
 * [Gold Dragon](malware/gold-dragon/README.md)
   * [IOCs](malware/gold-dragon/iocs.md)
+* [Goldbackdoor](malware/goldbackdoor.md)
 * [Karagany](malware/karagany.md)
 * [RedLine](malware/redline/README.md)
   * [Analysis](malware/redline/analysis.md)
