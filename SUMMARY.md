@@ -76,6 +76,21 @@
 
 * [Description](mustang-panda/description.md)
 
+## Override Panda
+
+* [Activity](override-panda/activity.md)
+
+## Moshen Dragon
+
+* [TTPs](moshen-dragon/ttps.md)
+* [Activity](moshen-dragon/activity.md)
+* [Malware](moshen-dragon/malware.md)
+
+## UNC3524
+
+* [Linked To](unc3524/linked-to.md)
+* [Activity](unc3524/activity.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -129,6 +144,8 @@
 * [Industroyer](malware/industroyer.md)
 * [Listrix](malware/listrix.md)
 * [Sysmain](malware/sysmain.md)
+* [PlugX](malware/plugx.md)
+* [Shadowpad](malware/shadowpad.md)
 * [Hermetic Wiper](malware/hermetic-wiper/README.md)
   * [IOCs](malware/hermetic-wiper/iocs.md)
 * [Double Zero](malware/double-zero/README.md)
@@ -168,7 +185,3 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
-
-## Override Panda
-
-* [Activity](override-panda/activity.md)
