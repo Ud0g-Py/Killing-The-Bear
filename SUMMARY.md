@@ -114,6 +114,12 @@
 * [Campaigns](ghostwriter/campaigns.md)
 * [IOCs](ghostwriter/iocs.md)
 
+## Nobelium
+
+* [Campaigns](nobelium/campaigns.md)
+* [TTPs](nobelium/ttps.md)
+* [IOCs](nobelium/iocs.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -212,9 +218,3 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
-
-## Nobelium
-
-* [Campaigns](nobelium/campaigns.md)
-* [TTPs](nobelium/ttps.md)
-* [IOCs](nobelium/iocs.md)
