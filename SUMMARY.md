@@ -66,6 +66,7 @@
 
 * [TTPs](revil/ttps.md)
 * [Activity](revil/activity.md)
+* [Damage Done to Them](revil/damage-done-to-them.md)
 
 ## Mummy Spider
 
@@ -93,7 +94,25 @@
 
 ## Fancy Bear
 
+* [Campaign](fancy-bear/campaign.md)
 * [IOCs](fancy-bear/iocs.md)
+
+## Turla
+
+* [Campaign](turla/campaign.md)
+* [TTPs](turla/ttps.md)
+* [IOCs](turla/iocs.md)
+
+## Coldriver
+
+* [Campaign](coldriver/campaign.md)
+* [TTPs](coldriver/ttps.md)
+* [IOCs](coldriver/iocs.md)
+
+## Ghostwriter
+
+* [Campaigns](ghostwriter/campaigns.md)
+* [IOCs](ghostwriter/iocs.md)
 
 ## ⚔ Campaigns
 
@@ -110,6 +129,7 @@
   * [TTPs](campaigns/rig-exploit-kit-redline/ttps.md)
   * [IOCs](campaigns/rig-exploit-kit-redline/iocs.md)
 * [Conti and Hive](campaigns/conti-and-hive.md)
+* [Solardeflection C2 Typosquatting](campaigns/solardeflection-c2-typosquatting.md)
 
 ## ☣ Malware
 
@@ -193,6 +213,8 @@
 
 * [2022](newsletter/2022.md)
 
-## Group 1
+## Nobelium
 
-* [TTPs](group-1/ttps.md)
+* [Campaigns](nobelium/campaigns.md)
+* [TTPs](nobelium/ttps.md)
+* [IOCs](nobelium/iocs.md)
