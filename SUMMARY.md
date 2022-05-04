@@ -91,6 +91,10 @@
 * [Linked To](unc3524/linked-to.md)
 * [Activity](unc3524/activity.md)
 
+## Fancy Bear
+
+* [IOCs](fancy-bear/iocs.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -111,6 +115,9 @@
 
 * [NJRat](malware/njrat/README.md)
   * [IOCs](malware/njrat/iocs.md)
+* [Black Basta](malware/black-basta/README.md)
+  * [Activity](malware/black-basta/activity.md)
+  * [TTPs](malware/black-basta/ttps.md)
 * [Generic](malware/generic/README.md)
   * [IOCs](malware/generic/iocs.md)
 * [Mirai](malware/mirai/README.md)
@@ -185,3 +192,7 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
+
+## Group 1
+
+* [TTPs](group-1/ttps.md)
