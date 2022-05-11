@@ -222,3 +222,7 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
+
+## Bitter APT
+
+* [Campaigns](bitter-apt/campaigns.md)
