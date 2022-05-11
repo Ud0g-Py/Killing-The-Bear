@@ -136,7 +136,10 @@
   * [IOCs](campaigns/rig-exploit-kit-redline/iocs.md)
 * [Conti and Hive](campaigns/conti-and-hive.md)
 * [Solardeflection C2 Typosquatting](campaigns/solardeflection-c2-typosquatting.md)
-* [Bitter APT Bangladesh](campaigns/bitter-apt-bangladesh.md)
+* [Bitter APT Bangladesh](campaigns/bitter-apt-bangladesh/README.md)
+  * [TTPs](campaigns/bitter-apt-bangladesh/ttps.md)
+  * [IOCs](campaigns/bitter-apt-bangladesh/iocs.md)
+  * [CVEs](campaigns/bitter-apt-bangladesh/cves.md)
 
 ## ☣ Malware
 
