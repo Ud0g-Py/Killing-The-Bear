@@ -120,6 +120,10 @@
 * [TTPs](nobelium/ttps.md)
 * [IOCs](nobelium/iocs.md)
 
+## Bitter APT
+
+* [Campaigns](bitter-apt/campaigns.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -140,6 +144,9 @@
   * [TTPs](campaigns/bitter-apt-bangladesh/ttps.md)
   * [IOCs](campaigns/bitter-apt-bangladesh/iocs.md)
   * [CVEs](campaigns/bitter-apt-bangladesh/cves.md)
+* [Wordpress Javascript Injection](campaigns/wordpress-javascript-injection/README.md)
+  * [TTPs](campaigns/wordpress-javascript-injection/ttps.md)
+  * [IOCs](campaigns/wordpress-javascript-injection/iocs.md)
 
 ## ☣ Malware
 
@@ -222,7 +229,3 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
-
-## Bitter APT
-
-* [Campaigns](bitter-apt/campaigns.md)
