@@ -2,7 +2,45 @@
 
 ## 2022
 
+### May
+
+#### [Statement of Intent to Italy and Spain](https://t.me/killnet\_hacking/299)
+
+#### [Eurovisión DDoS Attack](https://t.me/killnet\_hacking/294)
+
+#### [Attack and leak on State Pension Portal of Ukraine (Zarya Legion)](https://t.me/killnet\_hacking/275)
+
+#### [Killnet USA attack on Boeing Company](https://t.me/killnet\_hacking/271)
+
+#### [Leak SQL Database of State Information and analytical Center of Foreign Commodity Markets of Ukraine](https://t.me/killnet\_hacking/268)
+
+#### [Attack on Rivne City Council of Okreniya site](https://t.me/killnet\_hacking/260)
+
+#### ![](../.gitbook/assets/image.png)
+
+#### [Pro-Russian hackers demand the release of Ioan Feher, the Romanian accused of helping Killnet, threaten to “destroy Romania” otherwis](https://www.romaniajournal.ro/society-people/pro-russian-hackers-demand-the-release-of-ioan-feher-the-romanian-accused-of-helping-killnet-threaten-to-destroy-romania-otherwise/)
+
+#### ![](<../.gitbook/assets/image (2).png>)
+
+#### [Attack on German info structure (Jacky)](https://t.me/killnet\_hacking/238)
+
+#### [Attack on German info structure (Sakurajima)](https://t.me/killnet\_hacking/237)
+
+#### [Attack on German info structure](https://t.me/killnet\_hacking/236) (Mirai)
+
+#### [Attack on Rompetrol](https://t.me/killnet\_hacking/231)
+
+#### [Attack on Activenews from Romania](https://t.me/killnet\_hacking/217)
+
+#### [Attack on multiple Lithuanian](https://t.me/killnet\_hacking/212)
+
 ### Apr
+
+#### [Attack on Social Democractic Party Site (Romanian)](https://t.me/killnet\_hacking/203)
+
+#### [Attack on multiples critical romanian websites](https://t.me/killnet\_hacking/201)
+
+#### [Attack on Polish Railways website](https://t.me/killnet\_hacking/196)
 
 #### [Attack on Ukrinform](https://t.me/killnet\_hacking/191)
 
@@ -46,7 +84,7 @@
 
 #### The server of the Kyiv Regional Prosecutor's Office kobl.gp.gov.ua was attacked
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 
 
