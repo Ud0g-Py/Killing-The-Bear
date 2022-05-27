@@ -124,6 +124,10 @@
 
 * [Campaigns](bitter-apt/campaigns.md)
 
+## Gamaredon
+
+* [IOCs](gamaredon/iocs.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -155,6 +159,8 @@
 * [Black Basta](malware/black-basta/README.md)
   * [Activity](malware/black-basta/activity.md)
   * [TTPs](malware/black-basta/ttps.md)
+* [Cherscrypt](malware/cherscrypt/README.md)
+  * [TTPs](malware/cherscrypt/ttps.md)
 * [Generic](malware/generic/README.md)
   * [IOCs](malware/generic/iocs.md)
 * [Mirai](malware/mirai/README.md)
@@ -229,7 +235,3 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
-
-## Gamaredon
-
-* [IOCs](gamaredon/iocs.md)
