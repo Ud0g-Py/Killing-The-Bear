@@ -4,6 +4,34 @@
 
 ### May
 
+#### [Attack and Leak on ukrinform gov ukranian website ](https://t.me/killnet\_hacking/380)
+
+#### [Attack and Leak on SBU Systems](https://t.me/killnet\_hacking/377)
+
+#### [Call to attack on multiple targets](https://t.me/killnet\_hacking/356)
+
+#### [Attack on poland gov site](https://t.me/killnet\_hacking/348)
+
+#### [Attack on multiple data, customs, police, exploration, payment system, and poland ads sites](https://t.me/killnet\_hacking/344)
+
+#### [Attack on multiple airports](https://t.me/killnet\_hacking/336)
+
+#### [Attack on multiple Latvian, Estonian, Italian, Romanian, Poland and German sites](https://t.me/killnet\_hacking/328)
+
+#### [Attack on italian police site](https://t.me/killnet\_hacking/318)
+
+#### [Attack on Nevzorov (Mirai)](https://t.me/killnet\_hacking/307)
+
+#### [Attack on Ziedot](https://t.me/killnet\_hacking/306)
+
+#### [Multiple Latvia websites](https://t.me/killnet\_hacking/304)
+
+#### [Call to fight to multiple Latvia website traffic exchange points, banks and media (Mirai)](https://t.me/killnet\_hacking/303)
+
+#### [Call to fight to multiple Latvia website police, transport-taxi, educational institutions, gov sites (Jacky)](https://t.me/killnet\_hacking/302)
+
+#### [Call to fight to multiple Latvia websites providers, Industry and airports (Sakurajima)](https://t.me/killnet\_hacking/301)
+
 #### [Statement of Intent to Italy and Spain](https://t.me/killnet\_hacking/299)
 
 #### [Eurovisión DDoS Attack](https://t.me/killnet\_hacking/294)
