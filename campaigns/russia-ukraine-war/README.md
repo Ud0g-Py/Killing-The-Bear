@@ -13,3 +13,7 @@
 #### [Microsoft revealed that Russia launched hundreds of cyberattacks against Ukrainian entities since the beginning of the invasion.](https://securityaffairs.co/wordpress/130677/apt/russia-hit-ukraine-hundreds-cyberattacks.html) (securityaffairs)
 
 #### [The U.S. government offers up to $10 million for info that allows to identify or locate six Russian GRU hackers who are members of the Sandworm APT group.](https://securityaffairs.co/wordpress/130669/apt/us-offers-10-reward-for-info-to-locate-six-russian-sandworm-members.html) (securityaffairs)
+
+### Feb
+
+#### [Russia or Ukraine: Hacking groups take sides](https://therecord.media/russia-or-ukraine-hacking-groups-take-sides/?msclkid=235244a7ba6611ec92f21c9bd3b8ee49) (The Record)
