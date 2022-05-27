@@ -229,3 +229,7 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
+
+## Gamaredon
+
+* [IOCs](gamaredon/iocs.md)
