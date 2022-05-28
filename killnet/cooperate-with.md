@@ -1,45 +1,33 @@
 # Cooperate with
 
-## [XakNet](broken-reference)
+## Groups
+
+### [XakNet](broken-reference)
 
 According to open-source reporting, the XakNet Team threatened to target Ukrainian organizations in response to perceived DDoS or other attacks against Russia.\[[41](https://therecord.media/russia-or-ukraine-hacking-groups-take-sides/)] According to reporting from industry, on March 31, 2022, XakNet released a statement stating they would work “exclusively for the good of \[Russia].” According to industry reporting, the XakNet Team may be working with or associated with Killnet actors, who claimed credit for the DDoS attacks against a U.S. airport (see the Killnet section). ([CISA](https://www.cisa.gov/uscert/ncas/alerts/aa22-110a))
 
+## Squads
 
+[Squad - DDOSGUNG](https://vk.cc/cdatmL)
 
-LEGION announces enrollment in special units.
+[Squad - Mirai](https://vk.cc/cdasVy)
 
-⚔️ "Squad - DDOSGUNG" Recruitment: _Click_ (https://vk.cc/cdatmL)⚔️"Squad - Mirai" Set: _Click_ (https://vk.cc/cdasVy)⚔️"Squad - Sakurajima" Set: \*(Click) (https://vk.cc/cdasS6)⚔️"Squad - JACKY" Set: _Click_
+[Squad - Sakurajima](https://vk.cc/cdasS6)&#x20;
 
-(https://vk.cc/cdavcy)👨🎓DDOS training Squad Leader: @CyberEducational
+[Squad - JACKY](https://vk.cc/cdavcy)
 
-🥷Counselor/Press: @H45H13
+Squad - Killnet USA
 
-❗️ Legion needs pentesters @killnet\_support
+Squad - Zarya (@H45H13)
 
-Official LEGION channel: @Legion\_Russia
+## Others
 
-Translated with www.DeepL.com/Translator (free version)
+DDOS training Squad Leader: @CyberEducational (Telegram)
 
+Press: @H45H13 (Telegram)
 
+[Cyberwar World](https://t.me/s/cyberwar\_world) (Created 26 February 2022)
 
-LEGION announces the recruitment of experienced hackers, pentesters, and OSINTers to its Special Purpose Squad.
+[DarkRetail Channel](https://t.me/s/darkretail\_channel) (Created 10 February 2021)
 
-⚔️ Zarya Squad Recruitment: @H45H13
-
-❗️There will be no training, people with experience are needed.
-
-
-
-Killnet Usa
-
-
-
-Приветствую!
-
-⚡️Предоставляю услуги пробива по базе солярис.
-
-☝️Поиск можно совершать по фио и др (возможно не полные данные) госномера, номера телефонов (бывает выдает пустые запросы), инн, паспортные данные, так же на юр лица.
-
-Стоимость запроса 300 рублей! 👉 @darkretail
-
-🖤На протяжении 4 месяцев, сотрудничает со всей командой killnet. Отличный сервис.
+[DarkRetail](https://t.me/darkretail)

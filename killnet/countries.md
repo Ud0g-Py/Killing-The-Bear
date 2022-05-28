@@ -14,3 +14,5 @@
 * Italy
 * Spain
 * Poland
+* UK
+* USA
