@@ -24,6 +24,8 @@ It has also been observed that there are some "trustworthy men" or "commanders" 
 
 Each Squad works independently and sets its own victims, although from time to time a "call to arms" is made where a series of objectives are assigned to each squad. It has not been confirmed whether these are direct orders or just proposals.
 
+More info in [this section](cooperate-with.md)
+
 ## Ideology
 
 Killnet supports the pro-Russian cause, but it does not mean that it also supports the Russian government.
