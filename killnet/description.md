@@ -65,5 +65,5 @@ Given their decentralized nature and observing their "call to arms" and other re
 They have publicly announced that they are looking to integrate pentesters, programmers, analysts, designers and press into their ranks, where they also indicated that they were looking for "senior" profiles.
 
 {% hint style="warning" %}
-Killnet has publicly announced that it is carrying out tests on <mark style="color:orange;">**Spanish**</mark> infrastructures and that the attack will be imminent and close. There is no reason to doubt their statements given their other actions in countries such as Italy, however, Killnet's attack capability today is limited to denial of service and database injection attacks. If your organization is well prepared against this type of attack, the risk of falling victim to Killner is very low.
+Killnet has publicly announced that it is carrying out tests on <mark style="color:orange;">**Spanish**</mark> infrastructures and that the attack will be imminent and close. There is no reason to doubt their statements given their other actions in countries such as Italy, however, Killnet's attack capability today is limited to denial of service and database injection attacks. If your organization is well prepared against this type of attack, the risk of falling victim to Killnet is very low.
 {% endhint %}
