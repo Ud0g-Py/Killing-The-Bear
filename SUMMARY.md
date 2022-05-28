@@ -134,7 +134,7 @@
 
 ## Killnet
 
-* [Summary](killnet/summary.md)
+* [Summary](killnet/description.md)
 * [Names](killnet/names.md)
 * [Countries](killnet/countries.md)
 * [Economy](killnet/economy.md)
