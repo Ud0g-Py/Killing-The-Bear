@@ -20,6 +20,14 @@ Squad - Killnet USA
 
 Squad - Zarya (@H45H13)
 
+Squad - Kajluk
+
+Squad - Impulse
+
+Squad - RAYD
+
+![Cyberknown.medium](../.gitbook/assets/imagen.png)
+
 ## Others
 
 DDOS training Squad Leader: @CyberEducational (Telegram)

@@ -2,12 +2,15 @@
 
 ## Belongs To
 
-* Russia
+* Decentralized
+* Pro-Russian
 
 ## Targets
 
 * Romania
 * Estonia
+* Latvia
+* Lithuania
 * Germany
 * Findland
 * Czech Republic
@@ -16,3 +19,7 @@
 * Poland
 * UK
 * USA
+
+{% hint style="warning" %}
+Countries supporting Ukraine and NATO members
+{% endhint %}

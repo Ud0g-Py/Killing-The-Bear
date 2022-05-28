@@ -3,7 +3,7 @@
 ![](<.gitbook/assets/Killing The Bear - Portada Gitbook.png>)
 
 {% hint style="warning" %}
-I am making new implementations for a better visualization of search and relationships between the different elements. That is why <mark style="color:orange;">**the content update frequency will be reduced in the short term until the next major update of the project.**</mark> Sorry for the inconvenience and stay tuned. It will be worth it ;D
+I'm making new implementations for a better visualization of search and relationships between the different elements. That is why <mark style="color:orange;">**the content update frequency will be reduced in the short term until the next major update of the project.**</mark> Sorry for the inconvenience and stay tuned. It will be worth it ;D
 {% endhint %}
 
 ## What's this?

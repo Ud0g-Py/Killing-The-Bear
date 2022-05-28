@@ -128,6 +128,25 @@
 
 * [IOCs](gamaredon/iocs.md)
 
+## Xaknet
+
+* [Description](xaknet/description.md)
+
+## Killnet
+
+* [Summary](killnet/summary.md)
+* [Names](killnet/names.md)
+* [Countries](killnet/countries.md)
+* [Economy](killnet/economy.md)
+* [References](killnet/references.md)
+* [Comms](killnet/comms.md)
+* [Campaigns](killnet/campaigns.md)
+* [Activity](killnet/activity.md)
+* [Foes](killnet/foes.md)
+* [Cooperate with](killnet/cooperate-with.md)
+* [Damage Done to Them](killnet/damage-done-to-them.md)
+* [Defense Against Them](killnet/defense-against-them.md)
+
 ## ⚔ Campaigns
 
 * [Honeypots](campaigns/honeypots/README.md)
@@ -235,21 +254,3 @@
 ## 📑 Newsletter
 
 * [2022](newsletter/2022.md)
-
-## Killnet
-
-* [Description](killnet/description.md)
-* [Names](killnet/names.md)
-* [Countries](killnet/countries.md)
-* [References](killnet/references.md)
-* [Comms](killnet/comms.md)
-* [Campaigns](killnet/campaigns.md)
-* [Activity](killnet/activity.md)
-* [Foes](killnet/foes.md)
-* [Cooperate with](killnet/cooperate-with.md)
-* [Damage Done to Them](killnet/damage-done-to-them.md)
-* [Defense Against Them](killnet/defense-against-them.md)
-
-## Xaknet
-
-* [Description](xaknet/description.md)
