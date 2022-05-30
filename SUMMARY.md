@@ -2,150 +2,106 @@
 
 * [⁉ FAQ](README.md)
 
-## Dragonfly
+## 💀 Actors
 
-* [Names](dragonfly/names.md)
-* [Description](dragonfly/description.md)
-* [Countries](dragonfly/countries.md)
-* [Sectors](dragonfly/sectors.md)
-* [TTPs](dragonfly/ttps.md)
-* [Malware](dragonfly/malware.md)
-* [IOCs](dragonfly/iocs.md)
-* [CVEs](dragonfly/cves.md)
-* [Campaigns](dragonfly/campaigns.md)
-* [Activity](dragonfly/activity.md)
-* [Damage Done to Them](dragonfly/damage-done-to-them.md)
-* [Defense Against Them](dragonfly/defense-against-them.md)
-* [Library](dragonfly/library.md)
-
-## DRAGONFLY 2.0
-
-* [Activity](dragonfly-2.0/activity.md)
-* [Library](dragonfly-2.0/library.md)
-
-## Lapsus
-
-* [IOCs](lapsus/iocs.md)
-
-## Carbon Spider
-
-* [Names](carbon-spider/names.md)
-* [Description](carbon-spider/description.md)
-* [Countries](carbon-spider/countries.md)
-* [Sectors](carbon-spider/sectors.md)
-* [Campaigns](carbon-spider/campaigns.md)
-
-## Network Battalion 65
-
-* [Campaigns](network-battalion-65/campaigns.md)
-* [Activity](network-battalion-65/activity.md)
-
-## Stormous
-
-* [Activity](stormous/activity.md)
-
-## Keksec
-
-* [Names](keksec/names.md)
-* [Activity](keksec/activity.md)
-* [Malware](keksec/malware.md)
-
-## Silent Chollima
-
-* [TTPs](silent-chollima/ttps.md)
-* [IOCs](silent-chollima/iocs.md)
-* [Activity](silent-chollima/activity.md)
-
-## Ricochet Chollima
-
-* [TTPs](ricochet-chollima/ttps.md)
-* [Activity](ricochet-chollima/activity.md)
-* [Malware](ricochet-chollima/malware.md)
-
-## Revil
-
-* [TTPs](revil/ttps.md)
-* [Activity](revil/activity.md)
-* [Damage Done to Them](revil/damage-done-to-them.md)
-
-## Mummy Spider
-
-* [Description](mummy-spider/description.md)
-* [Malware](mummy-spider/malware.md)
-
-## Mustang Panda
-
-* [Description](mustang-panda/description.md)
-
-## Override Panda
-
-* [Activity](override-panda/activity.md)
-
-## Moshen Dragon
-
-* [TTPs](moshen-dragon/ttps.md)
-* [Activity](moshen-dragon/activity.md)
-* [Malware](moshen-dragon/malware.md)
-
-## UNC3524
-
-* [Linked To](unc3524/linked-to.md)
-* [Activity](unc3524/activity.md)
-
-## Fancy Bear
-
-* [Campaign](fancy-bear/campaign.md)
-* [IOCs](fancy-bear/iocs.md)
-
-## Turla
-
-* [Campaign](turla/campaign.md)
-* [TTPs](turla/ttps.md)
-* [IOCs](turla/iocs.md)
-
-## Coldriver
-
-* [Campaign](coldriver/campaign.md)
-* [TTPs](coldriver/ttps.md)
-* [IOCs](coldriver/iocs.md)
-
-## Ghostwriter
-
-* [Campaigns](ghostwriter/campaigns.md)
-* [IOCs](ghostwriter/iocs.md)
-
-## Nobelium
-
-* [Campaigns](nobelium/campaigns.md)
-* [TTPs](nobelium/ttps.md)
-* [IOCs](nobelium/iocs.md)
-
-## Bitter APT
-
-* [Campaigns](bitter-apt/campaigns.md)
-
-## Gamaredon
-
-* [IOCs](gamaredon/iocs.md)
-
-## Xaknet
-
-* [Description](xaknet/description.md)
-
-## Killnet
-
-* [Summary](killnet/description.md)
-* [Names](killnet/names.md)
-* [Countries](killnet/countries.md)
-* [Economy](killnet/economy.md)
-* [References](killnet/references.md)
-* [Comms](killnet/comms.md)
-* [Campaigns](killnet/campaigns.md)
-* [Activity](killnet/activity.md)
-* [Foes](killnet/foes.md)
-* [Cooperate with](killnet/cooperate-with.md)
-* [Damage Done to Them](killnet/damage-done-to-them.md)
-* [Defense Against Them](killnet/defense-against-them.md)
+* [Bitter APT](actors/bitter-apt/README.md)
+  * [Campaigns](actors/bitter-apt/campaigns.md)
+* [Carbon Spider](actors/carbon-spider/README.md)
+  * [Names](actors/carbon-spider/names.md)
+  * [Description](actors/carbon-spider/description.md)
+  * [Countries](actors/carbon-spider/countries.md)
+  * [Sectors](actors/carbon-spider/sectors.md)
+  * [Campaigns](actors/carbon-spider/campaigns.md)
+* [Coldriver](actors/coldriver/README.md)
+  * [Campaigns](actors/coldriver/campaigns.md)
+  * [TTPs](actors/coldriver/ttps.md)
+  * [IOCs](actors/coldriver/iocs.md)
+* [Dragonfly](actors/dragonfly/README.md)
+  * [Names](actors/dragonfly/names.md)
+  * [Description](actors/dragonfly/description.md)
+  * [Countries](actors/dragonfly/countries.md)
+  * [Sectors](actors/dragonfly/sectors.md)
+  * [TTPs](actors/dragonfly/ttps.md)
+  * [Malware](actors/dragonfly/malware.md)
+  * [IOCs](actors/dragonfly/iocs.md)
+  * [CVEs](actors/dragonfly/cves.md)
+  * [Campaigns](actors/dragonfly/campaigns.md)
+  * [Activity](actors/dragonfly/activity.md)
+  * [Damage Done to Them](actors/dragonfly/damage-done-to-them.md)
+  * [Defense Against Them](actors/dragonfly/defense-against-them.md)
+  * [Library](actors/dragonfly/library.md)
+* [Dragonfly 2.0](actors/dragonfly-2.0/README.md)
+  * [Activity](actors/dragonfly-2.0/activity.md)
+  * [Library](actors/dragonfly-2.0/library.md)
+* [Fancy Bear](actors/fancy-bear/README.md)
+  * [Campaigns](actors/fancy-bear/campaigns.md)
+  * [IOCs](actors/fancy-bear/iocs.md)
+* [Gamaredon](actors/gamaredon/README.md)
+  * [IOCs](actors/gamaredon/iocs.md)
+* [Ghostwriter](actors/ghostwriter/README.md)
+  * [Campaigns](actors/ghostwriter/campaigns.md)
+  * [IOCs](actors/ghostwriter/iocs.md)
+* [Keksec](actors/keksec/README.md)
+  * [Names](actors/keksec/names.md)
+  * [Activity](actors/keksec/activity.md)
+  * [Malware](actors/keksec/malware.md)
+* [🔥 Killnet](actors/killnet/README.md)
+  * [Summary](actors/killnet/summary.md)
+  * [Names](actors/killnet/names.md)
+  * [Countries](actors/killnet/countries.md)
+  * [Sectors](actors/killnet/sectors.md)
+  * [Economy](actors/killnet/economy.md)
+  * [References](actors/killnet/references.md)
+  * [Comms](actors/killnet/comms.md)
+  * [Campaigns](actors/killnet/campaigns.md)
+  * [Activity](actors/killnet/activity.md)
+  * [Foes](actors/killnet/foes.md)
+  * [Cooperate with](actors/killnet/cooperate-with.md)
+  * [Damage Done to Them](actors/killnet/damage-done-to-them.md)
+  * [Defense Against Them](actors/killnet/defense-against-them.md)
+* [Lapsus](actors/lapsus/README.md)
+  * [IOCs](actors/lapsus/iocs.md)
+* [Moshen Dragon](actors/moshen-dragon/README.md)
+  * [TTPs](actors/moshen-dragon/ttps.md)
+  * [Activity](actors/moshen-dragon/activity.md)
+  * [Malware](actors/moshen-dragon/malware.md)
+* [Mummy Spider](actors/mummy-spider/README.md)
+  * [Description](actors/mummy-spider/description.md)
+  * [Malware](actors/mummy-spider/malware.md)
+* [Mustang Panda](actors/mustang-panda/README.md)
+  * [Description](actors/mustang-panda/description.md)
+* [Network Battalion 65](actors/network-battalion-65/README.md)
+  * [Campaigns](actors/network-battalion-65/campaigns.md)
+  * [Activity](actors/network-battalion-65/activity.md)
+* [Nobelium](actors/nobelium/README.md)
+  * [Campaigns](actors/nobelium/campaigns.md)
+  * [TTPs](actors/nobelium/ttps.md)
+  * [IOCs](actors/nobelium/iocs.md)
+* [Override Panda](actors/override-panda/README.md)
+  * [Activity](actors/override-panda/activity.md)
+* [Revil](actors/revil/README.md)
+  * [TTPs](actors/revil/ttps.md)
+  * [Activity](actors/revil/activity.md)
+  * [Damage Done to Them](actors/revil/damage-done-to-them.md)
+* [Ricochet Chollima](actors/ricochet-chollima/README.md)
+  * [TTPs](actors/ricochet-chollima/ttps.md)
+  * [Activity](actors/ricochet-chollima/activity.md)
+  * [Malware](actors/ricochet-chollima/malware.md)
+* [Silent Chollima](actors/silent-chollima/README.md)
+  * [TTPs](actors/silent-chollima/ttps.md)
+  * [IOCs](actors/silent-chollima/iocs.md)
+  * [Activity](actors/silent-chollima/activity.md)
+* [Stormous](actors/stormous/README.md)
+  * [Activity](actors/stormous/activity.md)
+* [Turla](actors/turla/README.md)
+  * [Campaign](actors/turla/campaign.md)
+  * [TTPs](actors/turla/ttps.md)
+  * [IOCs](actors/turla/iocs.md)
+* [UNC3524](actors/unc3524/README.md)
+  * [Activity](actors/unc3524/activity.md)
+  * [Linked To](actors/unc3524/linked-to.md)
+* [Xaknet](actors/xaknet/README.md)
+  * [Description](actors/xaknet/description.md)
 
 ## ⚔ Campaigns
 

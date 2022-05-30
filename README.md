@@ -6,6 +6,12 @@
 I'm making new implementations for a better visualization of search and relationships between the different elements. That is why <mark style="color:orange;">**the content update frequency will be reduced in the short term until the next major update of the project.**</mark> Sorry for the inconvenience and stay tuned. It will be worth it ;D
 {% endhint %}
 
+## Leyend
+
+|                          ICON                          |  MEANING |   |
+| :----------------------------------------------------: | :------: | - |
+| <h3><a href="https://emojipedia.org/fire/">🔥</a></h3> | Trending |   |
+
 ## What's this?
 
 Killing the Bear aims to centralize and compile and classify, in the simplest and most up-to-date way possible, all information concerning APTs and organized groups in general.
@@ -17,8 +23,6 @@ All extracted IOCs are stored by target and date in [AlienVault](https://otx.ali
 Parallel to this Gitbook, there is also a newsletter that I publish on my Linkedin for my entire network of contacts with the most up-to-date news and IOCs from my targets.
 
 You can reach Killing The Bear from [Github](https://github.com/Ud0g-Py/Killing-The-Bear) too.
-
-
 
 ## How useful information?
 
