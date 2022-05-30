@@ -30,6 +30,10 @@ More info in [this section](cooperate-with.md)
 
 Killnet supports the pro-Russian cause, but it does not mean that it also supports the Russian government.
 
+## Motivation
+
+Hacktivism
+
 ## Psychology
 
 For Killnet, the image of its ideology is fundamental.
