@@ -4,6 +4,8 @@
 
 ### May
 
+#### [Announcing Operation Panopticon](https://t.me/killnet\_channel/572)
+
 #### [Attack and Leak on ukrinform gov ukranian website ](https://t.me/killnet\_hacking/380)
 
 #### [Attack and Leak on SBU Systems](https://t.me/killnet\_hacking/377)

@@ -114,7 +114,7 @@ Well, although in this wiki they will all be listed, regardless of the country, 
 
 Stop the talk and let's go hunt some motherf\*cking bears.
 
-## Lincense
+## License
 
 Copyright © Killing The Bear - Jorge Testa 2022 .
 
