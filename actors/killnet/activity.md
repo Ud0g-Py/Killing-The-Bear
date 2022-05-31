@@ -4,6 +4,8 @@
 
 ### May
 
+#### [Killmilk shows respects to Italian CSIRT after successfully mitigating attacks on the first day of Operation Panopticon](https://t.me/killnet\_channel/578)
+
 #### [Announcing Operation Panopticon](https://t.me/killnet\_channel/572)
 
 #### [Attack and Leak on ukrinform gov ukranian website ](https://t.me/killnet\_hacking/380)

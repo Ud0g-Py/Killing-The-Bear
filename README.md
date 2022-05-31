@@ -8,9 +8,9 @@ I'm making new implementations for a better visualization of search and relation
 
 ## Leyend
 
-|                          ICON                          |  MEANING |   |
-| :----------------------------------------------------: | :------: | - |
-| <h3><a href="https://emojipedia.org/fire/">🔥</a></h3> | Trending |   |
+| ICON |  MEANING |   |
+| :--: | :------: | - |
+|  🔥  | Trending |   |
 
 ## What's this?
 
@@ -107,16 +107,6 @@ Good question.&#x20;
 The project is at a really early stage. I can't pick and choose the most relevant information that is going to come to me day by day, so in many occasions I get something interesting about a group or campaign that I haven't been able to fill in its entry yet, but I add it to complete it little by little.
 
 The whole Gitbook will be filled in and populated over time.
-
-## Why did you choose the bear for the name?
-
-If you have come this far, you probably know that according to Crowdstrike's nomenclature, they have the custom of assigning a symbolic "animal" of a country to the groups operating under that country.
-
-Well, although in this wiki they will all be listed, regardless of the country, I have a lot of "love" to give to the "bears". What better way to show it?
-
-## And now what?
-
-Stop the talk and let's go hunt some motherf\*cking bears.
 
 ## License
 
