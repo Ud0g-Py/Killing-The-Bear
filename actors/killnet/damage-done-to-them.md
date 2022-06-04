@@ -2,6 +2,10 @@
 
 ## 2022
 
+### Jun
+
+#### [Killnet Telegram banned](https://t.me/killnetV/161)
+
 ### May
 
 #### [Anonymous collective officially declares war against Killnet](https://twitter.com/YourAnonOne/status/1528048043647434752?s=19)

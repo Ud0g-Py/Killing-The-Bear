@@ -2,6 +2,12 @@
 
 ## 2022
 
+### Jun
+
+#### [Attacks on few seaport](https://t.me/killnetV/168)
+
+#### [Attack on italian maritime terminals](https://t.me/killnet\_channel/598)
+
 ### May
 
 #### [Killmilk shows respects to Italian CSIRT after successfully mitigating attacks on the first day of Operation Panopticon](https://t.me/killnet\_channel/578)
