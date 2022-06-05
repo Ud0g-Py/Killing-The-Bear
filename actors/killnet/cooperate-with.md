@@ -22,6 +22,8 @@ It is a pro-Russian hacktivist group that declares itself an enemy of the Cathol
 
 Squad - Killnet USA
 
+Squad - Killnet Bulgaria
+
 Squad - Zarya (@H45H13)
 
 Squad - Kajluk

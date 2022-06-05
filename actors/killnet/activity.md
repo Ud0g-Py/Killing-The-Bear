@@ -4,6 +4,8 @@
 
 ### Jun
 
+#### [Killnet Bulgaria actively attacking PrideMonth community in Bulgaria](https://pbs.twimg.com/media/FUfG8wUXwAA-dU7?format=jpg\&name=large)
+
 #### [Attacks on few seaport](https://t.me/killnetV/168)
 
 #### [Attack on italian maritime terminals](https://t.me/killnet\_channel/598)
