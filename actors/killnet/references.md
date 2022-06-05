@@ -2,6 +2,12 @@
 
 ## 2022
 
+### Jun
+
+#### [Killnet announces consequences after attack on Russian Ministry of Construction website](https://t.me/killnetV/175)
+
+#### [Legion announces new measures to manage squads](https://t.me/ddos\_channel\_rus/286)
+
 ### May
 
 #### [Anonymous Declares Cyberwar on Pro-Russian hacker gang Killnet (Medium)](https://medium.com/@crawsecurity/anonymous-declares-cyberwar-on-pro-russian-hacker-gang-killnet-5952fc81171f?source=rss------cybersecurity-5)
