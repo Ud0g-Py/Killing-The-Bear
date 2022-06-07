@@ -7,6 +7,14 @@ coverY: 0
 
 ## 2022
 
+### Jun
+
+#### [BlackCat — In a Shifting Threat Landscape, It Helps to Land on Your Feet: Tech Dive](https://www.advintel.io/post/blackcat-in-a-shifting-threat-landscape-it-helps-to-land-on-your-feet-tech-dive)
+
+{% hint style="success" %}
+Executive. Technical. IOCs. TTPs. Yara
+{% endhint %}
+
 ### May
 
 #### [On high alert: the relentless fight against cybercrime](https://egr.global/intel/insight/on-high-alert-the-relentless-fight-against-cybercrime/)

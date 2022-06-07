@@ -14,6 +14,7 @@
   * [TTPs](actors/alphv/ttps.md)
   * [CVEs](actors/alphv/cves.md)
   * [IOCs](actors/alphv/iocs.md)
+  * [Yara](actors/alphv/yara.md)
   * [References](actors/alphv/references.md)
   * [Comms](actors/alphv/comms.md)
   * [Activity](actors/alphv/activity.md)
