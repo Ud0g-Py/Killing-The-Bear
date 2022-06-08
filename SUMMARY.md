@@ -69,6 +69,7 @@
   * [Economy](actors/killnet/economy.md)
   * [References](actors/killnet/references.md)
   * [Comms](actors/killnet/comms.md)
+  * [Tools](actors/killnet/tools.md)
   * [Campaigns](actors/killnet/campaigns.md)
   * [Activity](actors/killnet/activity.md)
   * [Foes](actors/killnet/foes.md)

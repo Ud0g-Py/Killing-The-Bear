@@ -32,6 +32,14 @@ Squad - Impulse
 
 Squad - RAYD
 
+Squad - Phoenix
+
+Squad - Vera
+
+Squad - FasoninnGung
+
+Squad - DDOS Gung
+
 ![Cyberknown.medium](../../.gitbook/assets/imagen.png)
 
 {% hint style="warning" %}

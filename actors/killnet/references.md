@@ -4,6 +4,8 @@
 
 ### Jun
 
+#### [Exclusive: Pro-Russia group ‘Cyber Spetsnaz’ is attacking government agencies](https://securityaffairs.co/wordpress/131967/hacking/exclusive-pro-russia-cyber-spetsnaz-is-attacking-government-agencies.html)
+
 #### [Killnet announces consequences after attack on Russian Ministry of Construction website](https://t.me/killnetV/175)
 
 #### [Legion announces new measures to manage squads](https://t.me/ddos\_channel\_rus/286)
