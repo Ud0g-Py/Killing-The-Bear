@@ -1,16 +1,12 @@
 # ⁉ FAQ
 
-![](<.gitbook/assets/Killing The Bear - Portada Gitbook.png>)
-
-{% hint style="warning" %}
-I'm making new implementations for a better visualization of search and relationships between the different elements. That is why <mark style="color:orange;">**the content update frequency will be reduced in the short term until the next major update of the project.**</mark> Sorry for the inconvenience and stay tuned. It will be worth it ;D
-{% endhint %}
+![Killing The Bear - v1](<.gitbook/assets/Killing The Bear - Portada Gitbook.png>)
 
 ## Leyend
 
-| ICON |  MEANING |   |
-| :--: | :------: | - |
-|  🔥  | Trending |   |
+| ICON |  MEANING |
+| :--: | :------: |
+|  🔥  | Trending |
 
 ## What's this?
 

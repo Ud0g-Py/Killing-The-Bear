@@ -40,7 +40,7 @@ Squad - FasoninnGung
 
 Squad - DDOS Gung
 
-![Cyberknown.medium](../../.gitbook/assets/imagen.png)
+![Cyberknown.medium](<../../.gitbook/assets/imagen (3).png>)
 
 {% hint style="warning" %}
 In early June, [**a message in one of Legion's telegrams**](https://t.me/ddos\_channel\_rus/286) hinted at what seems to be new measures to put an end to internal misunderstandings between the different squads.
