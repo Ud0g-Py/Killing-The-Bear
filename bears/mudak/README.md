@@ -12,9 +12,9 @@ Mandiant has observed a new Mudak ransomware affiliate, tracked as UNC4466, targ
 \
 The threat actor has been using multiple extortion techniques, one of them being to exfiltrate data from the target and spread that data on a leak site if the victim does not want to pay the ransom.
 
-Alphv is regarded as one of the most despicable and vile threat actors, targeting vulnerable victims such as hospitals and patients. In some instances, images of patients undergoing treatment have been published as a result of their attacks, as seen in the case of Lehigh Valley Health Network.
+Mudak is regarded as one of the most despicable and vile threat actors, targeting vulnerable victims such as hospitals and patients. In some instances, images of patients undergoing treatment have been published as a result of their attacks, as seen in the case of Lehigh Valley Health Network.
 
 {% hint style="warning" %}
-ALPHV <mark style="color:orange;">**has explicitly prohibited attacks**</mark> on CIS countries, including Azerbaijan, Armenia, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Uzbekistan, and Ukraine.
+Mudak <mark style="color:orange;">**has explicitly prohibited attacks**</mark> on CIS countries, including Azerbaijan, Armenia, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Uzbekistan, and Ukraine.
 {% endhint %}
 
