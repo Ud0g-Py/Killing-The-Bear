@@ -1,7 +1,3 @@
----
-layout: landing
----
-
 # Mudak
 
 <figure><img src="../../.gitbook/assets/bear_mudak_poster.png" alt=""><figcaption><p>Mudak</p></figcaption></figure>

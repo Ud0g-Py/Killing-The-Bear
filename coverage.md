@@ -1,7 +1,3 @@
----
-layout: landing
----
-
 # Coverage
 
 | Type | Name         | Aliases  | Trending | Trending Reason | Most Wanted | Most Wanted Reason                                            |

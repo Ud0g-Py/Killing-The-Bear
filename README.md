@@ -2,7 +2,6 @@
 description: 'As Makarov said: "Remember, no russian"'
 cover: .gitbook/assets/gitbook_cover.jpg
 coverY: 0
-layout: editorial
 ---
 
 # 📌 Killing The Bear 2.0
