@@ -1,2 +1,0 @@
-# Silent Chollima
-

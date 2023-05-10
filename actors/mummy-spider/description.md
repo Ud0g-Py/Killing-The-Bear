@@ -1,3 +1,0 @@
-# Description
-
-Mummy Spider is a cybercrime actor that was first identified by the security community in June 2014. Mummy Spider is associated with Emotet malware that they used initially as a banking trojan, but has been updated over time to function as a modular downloader. Mummy Spider operates Emotet as-a-service and it was used to delivers multiple malwares such as Cobalt Strike, IcedID, Gootkit, **Trickbot** among others. Mummy Spider targets all industries and on a global scale by distributing the Emotet trojan via wide-scale malspam campaigns with malicious attachments or hyperlinks embedded in email messages.

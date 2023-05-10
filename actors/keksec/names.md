@@ -1,4 +1,0 @@
-# Names
-
-* Nero
-* Freakout

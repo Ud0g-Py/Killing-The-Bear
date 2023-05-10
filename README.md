@@ -1,112 +1,51 @@
-# ⁉ FAQ
+---
+description: 'As Makarov said: "Remember, no russian"'
+cover: .gitbook/assets/gitbook_cover.jpg
+coverY: 0
+layout: editorial
+---
 
-![Killing The Bear - v1](<.gitbook/assets/Killing The Bear - Portada Gitbook.png>)
+# 📌 Killing The Bear 2.0
 
-## Leyend
-
-| ICON |  MEANING |
-| :--: | :------: |
-|  🔥  | Trending |
+<figure><img src=".gitbook/assets/Diseño sin título.png" alt=""><figcaption><p>Killing The Bear 2.0</p></figcaption></figure>
 
 ## What's this?
 
-Killing the Bear aims to centralize and compile and classify, in the simplest and most up-to-date way possible, all information concerning APTs and organized groups in general.
+Killing The Bear 2.0, same as v1 but way more focused. On what? Only Russian threats.&#x20;
 
-Using information from external sources and reports from researchers around the world, it extracts IOCs and other data of interest to help keep emerging threats in the spotlight.
+As you can see, there’s now a landing page at “https://killingthebear.es” where actors and any updates (malware and campaigns coming soon) will be uploaded.
 
-All extracted IOCs are stored by target and date in [AlienVault](https://otx.alienvault.com/user/JTestaTech/pulses).
+KTB 2.0 won’t be a repository of already known data. I won’t collect data that’s already perfectly organized and widely accessible like Mitre. This time the goal is to provide relevant, actionable information for blue teamers and adversary emulation from the red team’s perspective, ALWAYS following the style and premises of Russian adversaries.
 
-Parallel to this Gitbook, there is also a newsletter that I publish on my Linkedin for my entire network of contacts with the most up-to-date news and IOCs from my targets.
+KTB 2.0 is NOT an OSINT repository, it’s a repository for Purple Team, its not just for Intel, and it’ll be built as such.&#x20;
 
-You can reach Killing The Bear from [Github](https://github.com/Ud0g-Py/Killing-The-Bear) too.
+It won’t only publish about widely known APTs or adversaries, it might also publish about more underground, loner adversaries that might not be as “concerning” for the masses but are interesting to the creator of KTB.
 
-## How useful information?
+You can keep reach Killing The Bear 2.0 from [Github](https://github.com/Ud0g-Py/Killing-The-Bear) too.
 
-A classification as atomized and relational as possible of various actors, including but not limited:
+## What happened to the previous version of KTB?
 
-* Actors
-* Countries
-* TTPs
-* Campaigns
-* Malware
-* Tools
-* Timeline (actions did **by** and **to** them)
-* Relations between them
-* Library
-* Long etc...
+You can still access the old version of KTB through previous commits on the official [Github](https://github.com/Ud0g-Py/Killing-The-Bear) repository. There used to be many entries, but the vast majority were empty. Now there will be far fewer entries, but with much more valuable content focused exclusively on adversary emulation bit a bit.
 
-## What kind of IOCs?
+## KTB & AI
 
-* Hashes (MD5, SHA1, SHA256)
-* CIDR
-* IPs (v4 and v6)
-* Urls
-* Domains
-* Hostnames
-* SSL Fingerprint
-* Yara
-* CVEs
-* Etc...
+Lens is activated in this repository. That means you’ll be able to search and relate information using Lens’ AI. This is a feature of Gitbook and therefore may be subject to change.
 
-## How should I use this?
+You only have to click in the upper search panel, and click in the "lens" button at the right. That's all, let the magic do all for you.
 
-Whenever you see a link in this gitbook, it will take you to an Alienvault Pulse. There you can extract the IOCs or implement them directly in your SOC.
+## Nomenclature & Aliases
 
-Either way, this is ammunition for your SOC, your Blue Team and your CTI.
+Yes, KTB 2.0 will have its own nomenclature for actors.&#x20;
 
-Use the info listed here to prevent before you become prey.
+The main identifier will be its own and the different community names will be categorized as “aliases”. This will allow you to access, for example, “Syndicate-85” by searching for “APT28” and similar. Why do I do it this way? Because I don’t always agree with the attributions of different manufacturers and why not, because I usually don’t like the names of big companies ;P.
 
-And if the day comes when you have a shot at any of the groups listed here, **make them pay**.
+## Disclaimer
 
-## How can I search for something?
-
-Almost everything has been implemented so that you can search by tags.
-
-If you are interested in vulnerabilities, just search for "cve" in the search field and it will take you to all those IOCs that have associated CVEs.
-
-If you are looking for a particular malware family associated with several IOCs or Groups, proceed in the same way by entering the name of the malware you want to search for.
-
-Same for dates (month only has "3 letters" ex:Apr)
-
-For a more in-depth and API-enabled search, go to my [AlientVault ](https://otx.alienvault.com/user/JTestaTech/pulses)and search for "Killing The Bear".
-
-## Who manages all this?
-
-Myself. Right now I'm just running the project in my spare time, but all help is welcome.
-
-And who am I? just another guy in this sector who has a couple of unfinished business with the bad guys and a promise to keep.
-
-The project is born from the idea of trying to give the community one day a centralized point to hunt the devil, away from all the discrepancies and commercial bullshit where everyone calls things what they want. That doesn't help.&#x20;
-
-Evil is Evil, and it should be called the same, whether it comes from Crowdstrike or from the other side of the world.
-
-## How can I collaborate?
-
-Any source of information, or raw information that you can pass me, is more than welcome.
-
-Any analysis report, github repo, findings, suspected campaigns, everything is welcome.
-
-In the header of this page you have a link to "[Allmylinks](https://linktr.ee/jorgetesta)" where you can see several sites where you can contact me.
-
-However, the easiest way for this project is for you to do it by sending me an email to [intel@jorgetesta.tech](mailto:intel@jorgetesta.tech). Please send it to me in encrypted form. You can find my [public key](https://keyserver.ubuntu.com/pks/lookup?op=get\&search=0x7d9db09bf46df0253b7994fc47bfd765f6c9bfaa) on any server, however, you will also find it in the header.
-
-I will add a "Contributors" section and add the ID of your choice to that list.
-
-{% hint style="info" %}
-I always give credit to the source, but the amount of information I have to manage is immense, so if you see IOCs of yours and you are not referenced correctly in the AlientVault, please let me know and I will solve it asap.
-{% endhint %}
-
-## Why are there so many empty entries?
-
-Good question.&#x20;
-
-The project is at a really early stage. I can't pick and choose the most relevant information that is going to come to me day by day, so in many occasions I get something interesting about a group or campaign that I haven't been able to fill in its entry yet, but I add it to complete it little by little.
-
-The whole Gitbook will be filled in and populated over time.
+My opinions are mine, and the information as well as the research, opinions and attitudes are exclusively mine, for better or for worse, and in no case represent the vision or stance of my colleagues or employer.
 
 ## License
 
-Copyright © Killing The Bear - Jorge Testa 2022 .
+Copyright © Killing The Bear - Jorge Testa 2023 .
 
 Unless otherwise specified, information from external sources and third parties added to this book belongs to its original authors. The book "Killing The Bear" and its references are authored by Jorge Jiménez (aka Jorge Testa) and licensed under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).&#x20;
 

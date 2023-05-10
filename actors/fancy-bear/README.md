@@ -1,2 +1,0 @@
-# Fancy Bear
-
