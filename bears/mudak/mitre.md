@@ -5,4 +5,3 @@ coverY: 0
 
 # Mitre
 
-##
