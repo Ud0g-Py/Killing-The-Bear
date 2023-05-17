@@ -37,6 +37,7 @@
     * [Fancy Bear known to be exploiting vulnerability in Cisco routers](bears/syndicate-85/references/fancy-bear-known-to-be-exploiting-vulnerability-in-cisco-routers.md)
     * [US and UK agencies warn of Russia-linked APT28 exploiting Cisco router flaws](bears/syndicate-85/references/us-and-uk-agencies-warn-of-russia-linked-apt28-exploiting-cisco-router-flaws.md)
     * [APT28 Attacks on Cisco Routers: What We Know So Far](bears/syndicate-85/references/apt28-attacks-on-cisco-routers-what-we-know-so-far.md)
+    * [Malware Analysis Report - Jaguar Tooth](bears/syndicate-85/references/malware-analysis-report-jaguar-tooth.md)
   * [Emulations](bears/syndicate-85/emulations.md)
   * [Telemetry](bears/syndicate-85/telemetry.md)
   * [Detections](bears/syndicate-85/detections.md)
