@@ -41,3 +41,6 @@
   * [Emulations](bears/syndicate-85/emulations.md)
   * [Telemetry](bears/syndicate-85/telemetry.md)
   * [Detections](bears/syndicate-85/detections.md)
+  * [Members](bears/syndicate-85/members/README.md)
+    * [Sergey Alexandrovich](bears/syndicate-85/members/sergey-alexandrovich/README.md)
+      * [Hacked: Russian GRU officer wanted by the FBI, leader of the hacker group APT 28](bears/syndicate-85/members/sergey-alexandrovich/hacked-russian-gru-officer-wanted-by-the-fbi-leader-of-the-hacker-group-apt-28.md)

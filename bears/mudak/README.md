@@ -1,6 +1,6 @@
 # Mudak
 
-<figure><img src="../../.gitbook/assets/bear_mudak_poster.png" alt=""><figcaption><p>Mudak</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bear_mudak_poster (1).png" alt=""><figcaption><p>Mudak</p></figcaption></figure>
 
 Mudak, also known as Alphv and BlackCat ransomware, is a Ransomware-as-a-Service that has compromised at least 60 entities worldwide. The Federal Bureau of Investigation (FBI) has released a Flash report detailing indicators of compromise (IOCs) associated with attacks involving Mudak.\
 \
