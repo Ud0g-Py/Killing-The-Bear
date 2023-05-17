@@ -57,6 +57,12 @@
   * [Emulations](bears/kashkan/emulations.md)
   * [Telemetry](bears/kashkan/telemetry.md)
   * [Detections](bears/kashkan/detections.md)
+* [Syndicate-6192](bears/syndicate-6192/README.md)
+  * [References](bears/syndicate-6192/references/README.md)
+    * [Emulating Recent Activity from the Russian Adversary Nobelium / APT29](bears/syndicate-6192/references/emulating-recent-activity-from-the-russian-adversary-nobelium-apt29.md)
+    * [Espionage campaign linked to Russian intelligence services](bears/syndicate-6192/references/espionage-campaign-linked-to-russian-intelligence-services.md)
+    * [OSINT ChatGPT Query of the the Day (QoD) - APT 29](bears/syndicate-6192/references/osint-chatgpt-query-of-the-the-day-qod-apt-29.md)
+    * [NOBELIUM Uses Poland's Ambassador's Visit to the U.S. to Target EU Governments Assisting Ukraine](bears/syndicate-6192/references/nobelium-uses-polands-ambassadors-visit-to-the-u.s.-to-target-eu-governments-assisting-ukraine.md)
 
 ## Malware
 
