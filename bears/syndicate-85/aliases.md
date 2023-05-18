@@ -5,10 +5,15 @@ coverY: 0
 
 # Aliases
 
-* APT28 (Mandiant)
-* Sofacy (Kaspersky)
-* Fancy Bear (CrowdStrike)
-* Pawn Storm (TrendMicro)
-* Sednit (ESET)
-* Tsar Team (FireEye)
-* Strontium (Microsoft)
+* APT28
+* Sednit
+* Fancy Bear
+* STRONTIUM
+* Pawn Storm
+* The Sednit Gang
+* Sofacy
+* Forest Blizzard
+* FROZENLAKE
+* Iron Twilight
+* Tsar Team
+* Cozy Bear
