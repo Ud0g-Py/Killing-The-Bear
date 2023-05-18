@@ -14,4 +14,3 @@ coverY: 0
 * [ ] [fancy-bear-known-to-be-exploiting-vulnerability-in-cisco-routers.md](references/fancy-bear-known-to-be-exploiting-vulnerability-in-cisco-routers.md "mention") (2023-04-21)
 * [ ] [us-and-uk-agencies-warn-of-russia-linked-apt28-exploiting-cisco-router-flaws.md](references/us-and-uk-agencies-warn-of-russia-linked-apt28-exploiting-cisco-router-flaws.md "mention") (2023-04-19)
 * [x] [apt28-attacks-on-cisco-routers-what-we-know-so-far.md](references/apt28-attacks-on-cisco-routers-what-we-know-so-far.md "mention") (2023-04-19)
-* [x] [malware-analysis-report-jaguar-tooth.md](references/malware-analysis-report-jaguar-tooth.md "mention") (2023-04-18)

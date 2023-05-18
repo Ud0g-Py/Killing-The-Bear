@@ -38,7 +38,6 @@
     * [Fancy Bear known to be exploiting vulnerability in Cisco routers](bears/syndicate-85/references/fancy-bear-known-to-be-exploiting-vulnerability-in-cisco-routers.md)
     * [US and UK agencies warn of Russia-linked APT28 exploiting Cisco router flaws](bears/syndicate-85/references/us-and-uk-agencies-warn-of-russia-linked-apt28-exploiting-cisco-router-flaws.md)
     * [APT28 Attacks on Cisco Routers: What We Know So Far](bears/syndicate-85/references/apt28-attacks-on-cisco-routers-what-we-know-so-far.md)
-    * [Malware Analysis Report - Jaguar Tooth](bears/syndicate-85/references/malware-analysis-report-jaguar-tooth.md)
   * [Emulations](bears/syndicate-85/emulations.md)
   * [Telemetry](bears/syndicate-85/telemetry.md)
   * [Detections](bears/syndicate-85/detections.md)
@@ -63,6 +62,11 @@
     * [Espionage campaign linked to Russian intelligence services](bears/syndicate-6192/references/espionage-campaign-linked-to-russian-intelligence-services.md)
     * [OSINT ChatGPT Query of the the Day (QoD) - APT 29](bears/syndicate-6192/references/osint-chatgpt-query-of-the-the-day-qod-apt-29.md)
     * [NOBELIUM Uses Poland's Ambassador's Visit to the U.S. to Target EU Governments Assisting Ukraine](bears/syndicate-6192/references/nobelium-uses-polands-ambassadors-visit-to-the-u.s.-to-target-eu-governments-assisting-ukraine.md)
+* [RockPort](bears/rockport/README.md)
+  * [References](bears/rockport/references/README.md)
+    * [FIN7/Carbon Spider Attacks Veeam Backup Servers](bears/rockport/references/fin7-carbon-spider-attacks-veeam-backup-servers.md)
+    * [FIN7 tradecraft seen in attacks against Veeam backup servers](bears/rockport/references/fin7-tradecraft-seen-in-attacks-against-veeam-backup-servers.md)
+    * [FIN7 and Ex-Conti Cybercrime Gangs Join Forces in Domino Malware Attacks](bears/rockport/references/fin7-and-ex-conti-cybercrime-gangs-join-forces-in-domino-malware-attacks.md)
 
 ## Malware
 
@@ -72,3 +76,6 @@
     * [Hunting Russian Intelligence “Snake” Malware in Memory With Magnet AXIOM Cyber](malware/snake/references/hunting-russian-intelligence-snake-malware-in-memory-with-magnet-axiom-cyber.md)
     * [Attack Graph Response to CISA Advisory AA23-129A: Hunting Russian Intelligence “Snake” Malware](malware/snake/references/attack-graph-response-to-cisa-advisory-aa23-129a-hunting-russian-intelligence-snake-malware.md)
     * [Hunting Russian Intelligence “Snake” Malware | CISA](malware/snake/references/hunting-russian-intelligence-snake-malware-or-cisa.md)
+* [Jaguar Tooth](malware/jaguar-tooth/README.md)
+  * [References](malware/jaguar-tooth/references/README.md)
+    * [Malware Analysis Report - Jaguar Tooth](malware/jaguar-tooth/references/malware-analysis-report-jaguar-tooth.md)
