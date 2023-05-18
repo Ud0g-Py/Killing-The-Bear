@@ -1,23 +1,28 @@
 # Aliases
 
-* Turla (Kaspersky)
-* Waterbug (Symantec)
-* Venomous Bear (CrowdStrike)
-* Group 88 (Talos)
+* Turla
+* Snake
+* Venomous Bear
+* Group 88
+* Waterbug
+* WRAITH
+* Uroburos
+* Pfinet
+* TAG\_0530
+* KRYPTON
+* Hippo Team
+* Pacifier APT
+* Popeye
+* SIG23
 * SIG2 (NSA)
 * SIG15 (NSA)
-* SIG23 (NSA)
 * Iron Hunter (SecureWorks)
 * CTG-8875 (SecureWorks)
-* Pacifier APT (Bitdefender)
 * ATK 13 (Thales)
 * ITG12 (IBM)
 * Makersmark (ESET)
-* Krypton (Microsoft)
 * Belugasturgeon (Accenture)
-* Popeye (?)
-* Wraith (?)
-* TAG-0530 (Recorded Future)
+* Wraith
 * UNC4210 (Mandiant)
 * SUMMIT (Google)
 * Secret Blizzard (Microsoft)
