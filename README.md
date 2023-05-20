@@ -4,7 +4,7 @@ cover: .gitbook/assets/gitbook_cover.jpg
 coverY: 0
 ---
 
-# 📌 Killing The Bear 2.0
+# 📌 FAQ (READ FIRST)
 
 <figure><img src=".gitbook/assets/Diseño sin título.png" alt=""><figcaption><p>Killing The Bear 2.0</p></figcaption></figure>
 
@@ -31,6 +31,19 @@ You can still access the old version of KTB through previous commits on the offi
 Lens is activated in this repository. That means you’ll be able to search and relate information using Lens’ AI. This is a feature of Gitbook and therefore may be subject to change.
 
 You only have to click in the upper search panel, and click in the "lens" button at the right. That's all, let the magic do all for you.
+
+## Legend & meaning of icons
+
+In the [Coverage](coverage.md) section, which affects the icons and messages on the [home page](https://killingthebear.es) (killingthebear.es):&#x20;
+
+The “<mark style="color:red;background-color:red;">Most wanted</mark>” <img src="https://img.icons8.com/?size=512&#x26;id=Qx256CBxVAbI&#x26;format=png" alt="" data-size="line"> icon and the red message indicate that this group is of vital interest to the project and that maximum information is being sought about it. The message specifies the reason.
+
+The “<mark style="color:orange;background-color:orange;">Trending</mark>” <img src="https://img.icons8.com/ios-filled/50/000000/medium-risk.png" alt="" data-size="line"> icon and yellow message indicate the trend. This means that the entity is currently trending. The message specifies the reason.
+
+Within the _**References**_ section of each entity, there will be a checklist:
+
+* [x] Those that are marked as completed have been fully parsed to extract all possible technical fields such as Aliases, Malware, Tools, Vulnerabilities, and especially MITRE.&#x20;
+* [ ] Those that are unchecked will be parsed soon
 
 ## Nomenclature & Aliases
 

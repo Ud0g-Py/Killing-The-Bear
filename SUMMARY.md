@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📌 Killing The Bear 2.0](README.md)
+* [📌 FAQ (READ FIRST)](README.md)
 * [Coverage](coverage.md)
 
 ## Bears
