@@ -55,6 +55,7 @@
   * [Vulnerabilities](bears/kashkan/vulnerabilities.md)
   * [Mitre](bears/kashkan/mitre.md)
   * [References](bears/kashkan/references/README.md)
+    * [The Underground History of Russia’s Most Ingenious Hacker Group](bears/kashkan/references/the-underground-history-of-russias-most-ingenious-hacker-group.md)
     * [Turla: A Galaxy of Opportunity | Mandiant](bears/kashkan/references/turla-a-galaxy-of-opportunity-or-mandiant.md)
     * [Russian Turla Cyberspies Leveraged Other Hackers' USB-Delivered Malware](bears/kashkan/references/russian-turla-cyberspies-leveraged-other-hackers-usb-delivered-malware.md)
   * [Emulations](bears/kashkan/emulations.md)
