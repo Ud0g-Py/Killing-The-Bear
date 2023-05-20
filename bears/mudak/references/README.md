@@ -10,6 +10,6 @@ coverY: 0
 * [ ] [blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md](blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md "mention") (2022-11-09)
 * [ ] [esxi-targeting-ransomware-tactics-and-techniques-part-2.md](esxi-targeting-ransomware-tactics-and-techniques-part-2.md "mention")(2022-11-02)
 * [ ] [noberus-ransomware-darkside-and-blackmatter-successor-continues-to-evolve-its-tactics-or-broadcom-so.md](noberus-ransomware-darkside-and-blackmatter-successor-continues-to-evolve-its-tactics-or-broadcom-so.md "mention") (2022-09-25)
-* [ ] [ttps-associated-with-a-new-version-of-the-blackcat-ransomware.md](ttps-associated-with-a-new-version-of-the-blackcat-ransomware.md "mention") (2022-09-07)
-* [ ] [a-deep-dive-into-alphv-blackcat-ransomware.md](a-deep-dive-into-alphv-blackcat-ransomware.md "mention") (2022-07-19)
+* [x] [ttps-associated-with-a-new-version-of-the-blackcat-ransomware.md](ttps-associated-with-a-new-version-of-the-blackcat-ransomware.md "mention") (2022-09-07)
+* [x] [a-deep-dive-into-alphv-blackcat-ransomware.md](a-deep-dive-into-alphv-blackcat-ransomware.md "mention") (2022-07-19)
 

@@ -5,19 +5,27 @@ coverY: 0
 
 # Tools
 
-* 7Zip
-* GO Simple Tunnel
-* LaZagne
+* MobaXterm
+* mottynew.exe
+* WinRAR
+* 7zip
+* rclone
 * MEGAsync
+* FileZilla
+* WinSCP
+* cURL
+* PEView
 * Mimikatz
+* SoftPerfect Network scanner
+* Process Hacker
+* wmic
+* arp
+* cmd.exe
+* LaZagne
 * PsExec
 * WebBrowserPassView
-* Total Software Deployment
-* ConnectWise Control
 * Cobalt Strike
 * NetScan
 * Bloodhound
 * CrackMapExec
 * Inveigh
-* Rclone
-* ExMatter
