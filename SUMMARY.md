@@ -68,10 +68,18 @@
     * [OSINT ChatGPT Query of the the Day (QoD) - APT 29](bears/syndicate-6192/references/osint-chatgpt-query-of-the-the-day-qod-apt-29.md)
     * [NOBELIUM Uses Poland's Ambassador's Visit to the U.S. to Target EU Governments Assisting Ukraine](bears/syndicate-6192/references/nobelium-uses-polands-ambassadors-visit-to-the-u.s.-to-target-eu-governments-assisting-ukraine.md)
 * [RockPort](bears/rockport/README.md)
+  * [Aliases](bears/rockport/aliases.md)
+  * [Tools](bears/rockport/tools.md)
   * [References](bears/rockport/references/README.md)
+    * [Researchers tie FIN7 cybercrime family to Clop ransomware](bears/rockport/references/researchers-tie-fin7-cybercrime-family-to-clop-ransomware.md)
     * [FIN7/Carbon Spider Attacks Veeam Backup Servers](bears/rockport/references/fin7-carbon-spider-attacks-veeam-backup-servers.md)
     * [FIN7 tradecraft seen in attacks against Veeam backup servers](bears/rockport/references/fin7-tradecraft-seen-in-attacks-against-veeam-backup-servers.md)
     * [FIN7 and Ex-Conti Cybercrime Gangs Join Forces in Domino Malware Attacks](bears/rockport/references/fin7-and-ex-conti-cybercrime-gangs-join-forces-in-domino-malware-attacks.md)
+  * [Members](bears/rockport/members/README.md)
+    * [Denys Iarmark](bears/rockport/members/denys-iarmark/README.md)
+      * [FIN7 hacker sentenced to five years](bears/rockport/members/denys-iarmark/fin7-hacker-sentenced-to-five-years.md)
+    * [Fedir Hladyr](bears/rockport/members/fedir-hladyr.md)
+    * [Andrii Kolpakov](bears/rockport/members/andrii-kolpakov.md)
 
 ## Malware
 

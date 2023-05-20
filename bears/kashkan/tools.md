@@ -8,3 +8,4 @@ coverY: 0
 * Kazuar
 * KopiLuwak
 * Satellite-based hacking
+* WinRAR SFX
