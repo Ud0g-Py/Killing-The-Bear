@@ -5,6 +5,7 @@ coverY: 0
 
 # Vulnerabilities
 
+* CVE-2023-27532
 * CVE-2021-26855
 * CVE-2021-34473
 * CVE-2021-34523

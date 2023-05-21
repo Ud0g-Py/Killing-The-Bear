@@ -23,6 +23,7 @@ coverY: 0
 * Meterpreter
 * Mimikatz
 * POWERPLANT
+* POWERTRASH
 * POWERSOURCE
 * RDFSNIFFER
 * SQLRAT

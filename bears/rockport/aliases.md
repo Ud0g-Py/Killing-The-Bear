@@ -6,6 +6,8 @@ coverY: 0
 # Aliases
 
 * FIN7 _(FireEye)_
+* ELBRUS
+* Sangria Tempest _(Microsoft)_
 * Gold Niagara _(SecureWorks)_
 * Calcium _(Symantec)_
 * Navigator _(Fox-IT)_

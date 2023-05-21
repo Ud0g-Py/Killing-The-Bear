@@ -79,6 +79,7 @@
   * [Vulnerabilities](bears/rockport/vulnerabilities.md)
   * [Mitre](bears/rockport/mitre.md)
   * [References](bears/rockport/references/README.md)
+    * [Notorious Cyber Gang FIN7 Returns With Cl0p Ransomware in New Wave of Attacks](bears/rockport/references/notorious-cyber-gang-fin7-returns-with-cl0p-ransomware-in-new-wave-of-attacks.md)
     * [Researchers tie FIN7 cybercrime family to Clop ransomware](bears/rockport/references/researchers-tie-fin7-cybercrime-family-to-clop-ransomware.md)
     * [FIN7/Carbon Spider Attacks Veeam Backup Servers](bears/rockport/references/fin7-carbon-spider-attacks-veeam-backup-servers.md)
     * [FIN7 tradecraft seen in attacks against Veeam backup servers](bears/rockport/references/fin7-tradecraft-seen-in-attacks-against-veeam-backup-servers.md)
