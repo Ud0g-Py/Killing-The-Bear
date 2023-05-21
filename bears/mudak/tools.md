@@ -7,6 +7,8 @@ coverY: 0
 
 * 7zip
 * arp
+* Advanced IP Scanner
+* ADRecon
 * Bloodhound
 * cURL
 * cmd.exe
@@ -18,10 +20,13 @@ coverY: 0
 * GMER
 * Inveigh
 * LaZagne
+* LIGOLO
 * MEGAsync
+* Metasploit
 * Mimikatz
 * mottynew.exe
 * MobaXterm
+* Nanodump
 * NetScan
 * PAExec
 * PEView
@@ -32,4 +37,5 @@ coverY: 0
 * WebBrowserPassView
 * WinRAR
 * WinSCP
+* WINSW
 * wmic
