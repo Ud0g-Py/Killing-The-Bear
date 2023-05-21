@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/bear_mudak_poster.png
+cover: ../../.gitbook/assets/bear_mudak_poster (1).png
 coverY: 0
 ---
 
@@ -15,17 +15,22 @@ coverY: 0
 * **Tactic: TA0002 - Execution**
   *   **Technique: T1059 - Command and Scripting Interpreter**
 
-      * **Reasons:**
-        * The wmic process is used to extract the UUID (2022-07-19)
-        * The ransomware deletes all volume shadow copies using the vssadmin.exe utility (2022-07-19)
-        * There is also a second process that is responsible for deleting all volume shadow copies with wmic (2022-07-19)
-        * The binary disables Automatic Repair using the bcdedit tool (2022-07-19)
-        * The malicious process obtains the ARP table using the arp command (2022-07-19)
-        * The net use command is utilized to connect to the local computer using different credentials stored in the BlackCat configuration (2022-07-19)
-        * The ransomware writes multiple actions to the command line output (2022-07-19)
-        * Processes spawned include cmd.exe with various commands (2022-07-19)
-        * The article mentions that after gaining access to the internal network, the ransomware installed the legitimate tools MobaXterm and mottynew.exe (MobaXterm terminal). (2022-09-07)
-        * The article mentions that the ransomware installed the cURL tool to download additional files. Process Hacker was also installed by the malware and could be used to dump the memory of the LSASS process. In the same directory with Process Hacker, the BlackCat ransomware dropped a copy of the PEView tool, which is a viewer for Portable Executable (PE) files. (2022-09-07)
+      *   **Reasons:**
+
+          * “Before the encryption starts, the ESXi encryptor of almost any ransomware family tries to shut down running virtual machines with either the esxcli command or vim-cmd vmsvc/power.off.” (2022-11-02)
+          * “Most of the ESXi encryptors require at least one parameter – the path to the target directory, that will be encrypted.” (2022-11-02)
+          * The wmic process is used to extract the UUID (2022-07-19)
+          * The ransomware deletes all volume shadow copies using the vssadmin.exe utility (2022-07-19)
+          * There is also a second process that is responsible for deleting all volume shadow copies with wmic (2022-07-19)
+          * The binary disables Automatic Repair using the bcdedit tool (2022-07-19)
+          * The malicious process obtains the ARP table using the arp command (2022-07-19)
+          * The net use command is utilized to connect to the local computer using different credentials stored in the BlackCat configuration (2022-07-19)
+          * The ransomware writes multiple actions to the command line output (2022-07-19)
+          * Processes spawned include cmd.exe with various commands (2022-07-19)
+          * The article mentions that after gaining access to the internal network, the ransomware installed the legitimate tools MobaXterm and mottynew.exe (MobaXterm terminal). (2022-09-07)
+          * The article mentions that the ransomware installed the cURL tool to download additional files. Process Hacker was also installed by the malware and could be used to dump the memory of the LSASS process. In the same directory with Process Hacker, the BlackCat ransomware dropped a copy of the PEView tool, which is a viewer for Portable Executable (PE) files. (2022-09-07)
+
+
 
 
   * **Technique: T1047 - Windows Management Instrumentation**
@@ -59,9 +64,12 @@ coverY: 0
       * The ransomware deletes all volume shadow copies using the vssadmin.exe utility (2022-07-19)
       * There is also a second process that is responsible for deleting all volume shadow copies with wmic (2022-07-19)
   * **Technique: T1070.001 - Indicator Removal on Host: Clear Windows Event Logs**
+    * **Reasons:**
+      * The ransomware tries to clear all event logs, however, the command is incorrect and returns an error (2022-07-19)
+  * **Technique: T1070.004 - Indicator Removal: File Deletion**
     *   **Reasons:**
 
-        * The ransomware tries to clear all event logs, however, the command is incorrect and returns an error (2022-07-19)
+        * The article mentions that “Self-destruct: Configuration option, which, when enabled, will make the tool self-destruct and quit if executed in a non-corporate environment (outside of a Windows domain).” (2022-09-25)
 
 
 * **Tactic: TA0007 - Discovery**
@@ -97,16 +105,26 @@ coverY: 0
     * **Reasons:**
       * The BlackCat configuration contains stolen credentials specific to the victim’s environment (2022-07-19)
   * **Technique: T1003.001 - OS Credential Dumping: LSASS Memory**
+    * **Reasons:**
+      * The article mentions that as we already know from the malware analysis of the ransomware, BlackCat steals credentials from the victim’s environment and incorporates them into its configuration (“credentials” field). Mimikatz was utilized to dump the credentials. (2022-09-07)
+  * **Technique: T1003 - OS Credential Dumping**
     *   **Reasons:**
 
-        * The article mentions that as we already know from the malware analysis of the ransomware, BlackCat steals credentials from the victim’s environment and incorporates them into its configuration (“credentials” field). Mimikatz was utilized to dump the credentials. (2022-09-07)
+        * The article mentions that “At least one affiliate of the Noberus ransomware operation was spotted in late August using information-stealing malware that is designed to steal credentials stored by Veeam backup software.” (2022-09-25)
 
 
 * **Tactic: TA0008 - Lateral Movement**
-  * Technique: **T1021.001 - Remote Services: Remote Desktop Protocol**
-    *   Reasons:
+  * **Technique: T1021.001 - Remote Services: Remote Desktop Protocol**
+    *   **Reasons:**
 
         * The article mentions that after dumping credentials using Mimikatz, the malware pivots from one machine to another via Remote Desktop Protocol (RDP). (2022-09-07)
+
+
+* **Tactic: TA0009 - Collection**
+  * **Technique: T1560 - Archive Collected Data**
+    *   **Reasons:**
+
+        * The article mentions that “Exmatter was designed to steal specific file types from a number of selected directories and upload them to an attacker-controlled server prior to deployment of the ransomware itself on the victim’s network.” (2022-09-25)
 
 
 * **Tactic: TA0010 - Exfiltration**
@@ -140,7 +158,10 @@ coverY: 0
       * The content of the ransom note and the text that will appear on the Desktop Wallpaper are decrypted by the ransomware (2022-07-19)
   * **Technique: T1486 - Data Encrypted for Impact**
     * **Reasons:**
+      * The article mentions that “The ransomware also offered two encryption algorithms (ChaCha20 and AES), as well as four encryption modes - Full, Fast, DotPattern and SmartPattern.” (2022-09-25)
+      * The article mentions that “Coreid claims that Noberus is capable of encrypting files on Windows, EXSI, Debian, ReadyNAS, and Synology operating systems.” (2022-09-25)
       * Interestingly, BlackCat creates intermediary files called “checkpoints-\<encrypted file name>” during the encryption process (2022-07-19)
   * **Technique: T1489 - Service Stop**
     * **Reasons:**
+      * “Before the encryption starts, the ESXi encryptor of almost any ransomware family tries to shut down running virtual machines with either the esxcli command or vim-cmd vmsvc/power.off.” (2022-11-02)
       * BlackCat stops the targeted service using the ControlService function (2022-07-19)
