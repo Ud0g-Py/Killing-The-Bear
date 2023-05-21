@@ -15,6 +15,7 @@ coverY: 0
       * The article mentions that the entry point in the organization was an Exchange server that was vulnerable to Microsoft Exchange vulnerabilities. Multiple webshells have been identified on the impacted server. (2022-09-07)
 
 
+
 * **Tactic: TA0002 - Execution**
   * **Technique: T1053.005 - Scheduled Task/Job: At (Windows)**
     * **Reasons:**
@@ -43,7 +44,7 @@ coverY: 0
   * **Technique: T1047 - Windows Management Instrumentation**
     * **Reasons:**
       * There is also a second process that is responsible for deleting all volume shadow copies with wmic (2022-07-19)
-        * Processes spawned include cmd.exe with wmic commands (2022-07-19)
+      * Processes spawned include cmd.exe with wmic commands (2022-07-19)
   * **Technique: T1569.002 - System Services: Service Execution**
     * **Reasons:**
       * A targeted service is opened by calling the OpenServiceW routine (2022-07-19)
@@ -51,6 +52,7 @@ coverY: 0
     * **Reasons:**
       * The executable takes a snapshot of all processes and threads in the system (2022-07-19)
       * The processes are enumerated using the Process32FirstW and Process32NextW APIs (2022-07-19)
+
 
 
 * **Tactic: TA0005 - Defense Evasion**
@@ -81,6 +83,7 @@ coverY: 0
       * The article mentions that “Self-destruct: Configuration option, which, when enabled, will make the tool self-destruct and quit if executed in a non-corporate environment (outside of a Windows domain).” (2022-09-25)
 
 
+
 * **Tactic: TA0007 - Discovery**
   * **Technique: T1087.002 - Account Discovery: Domain Account**
     * **Reasons:**
@@ -103,6 +106,7 @@ coverY: 0
       * The process obtains a list of active services using EnumServicesStatusExW (2022-07-19)
 
 
+
 * **Tactic: TA0004 - Privilege Escalation**
   * **Technique: T1027 - Obfuscated Files or Information**
     * **Reasons:**
@@ -120,17 +124,19 @@ coverY: 0
       * BlackCat ransomware uses the auto-elevated CMSTPLUA interface {3E5FC7F9-9A51-4367-9063-A120244FBEC7} in order to escalate privileges (2022-07-19)
 
 
+
 * **Tactic: TA0006 - Credential Access**
   * **Technique: T1555 - Credentials from Password Stores**
     * **Reasons:**
       * The BlackCat configuration contains stolen credentials specific to the victim’s environment (2022-07-19)
   * **Technique: T1003.001 - OS Credential Dumping: LSASS Memory**
     * **Reasons:**
-    * The article mentions that "The threat actor utilized multiple credential access tools, including Mimikatz, LaZagne and Nanodump to gather clear-text credentials and credential material" and "Nanodump was also used to dump LSASS memory" (2023-04-04)
-    * The article mentions that as we already know from the malware analysis of the ransomware, BlackCat steals credentials from the victim’s environment and incorporates them into its configuration (“credentials” field). Mimikatz was utilized to dump the credentials. (2022-09-07)
+      * The article mentions that "The threat actor utilized multiple credential access tools, including Mimikatz, LaZagne and Nanodump to gather clear-text credentials and credential material" and "Nanodump was also used to dump LSASS memory" (2023-04-04)
+      * The article mentions that as we already know from the malware analysis of the ransomware, BlackCat steals credentials from the victim’s environment and incorporates them into its configuration (“credentials” field). Mimikatz was utilized to dump the credentials. (2022-09-07)
   * **Technique: T1003 - OS Credential Dumping**
     * **Reasons:**
       * The article mentions that “At least one affiliate of the Noberus ransomware operation was spotted in late August using information-stealing malware that is designed to steal credentials stored by Veeam backup software.” (2022-09-25)
+
 
 
 * **Tactic: TA0008 - Lateral Movement**
@@ -142,10 +148,12 @@ coverY: 0
       * The article mentions that after dumping credentials using Mimikatz, the malware pivots from one machine to another via Remote Desktop Protocol (RDP). (2022-09-07)
 
 
+
 * **Tactic: TA0009 - Collection**
   * **Technique: T1560 - Archive Collected Data**
     * **Reasons:**
       * The article mentions that “Exmatter was designed to steal specific file types from a number of selected directories and upload them to an attacker-controlled server prior to deployment of the ransomware itself on the victim’s network.” (2022-09-25)
+
 
 
 * **Tactic: TA0010 - Exfiltration**
@@ -162,6 +170,7 @@ coverY: 0
       * The article mentions that once the threat actor decided which files to exfiltrate, the malware compressed them using WinRAR or 7zip. The ransomware installed a tool called rclone that is utilized to upload data to cloud storage providers. A second tool called MEGAsync is also installed by the process, which can upload data to the MEGA Cloud Storage. (2022-09-07)
 
 
+
 * **Tactic: TA0011 - Command and Control**
   * **Technique: T1090.001 - Proxy: Internal Proxy**
     * **Reasons:**
@@ -172,6 +181,7 @@ coverY: 0
       * The article mentions that "UNC4466 used Internet Explorer to download Famatech’s Advanced IP Scanner" (2023-04-04)
       * The article mentions that after gaining access to the internal network, the ransomware installed the legitimate tools MobaXterm and mottynew.exe (MobaXterm terminal). (2022-09-07)
       * The article mentions that the ransomware installed the cURL tool to download additional files. Process Hacker was also installed by the malware and could be used to dump the memory of the LSASS process. In the same directory with Process Hacker, the BlackCat ransomware dropped a copy of the PEView tool, which is a viewer for Portable Executable (PE) files. (2022-09-07)
+
 
 
 * **Tactic: TA0040 - Impact**
@@ -195,6 +205,8 @@ coverY: 0
       * The article mentions that "Stop IIS service" (2022-11-09)
       * “Before the encryption starts, the ESXi encryptor of almost any ransomware family tries to shut down running virtual machines with either the esxcli command or vim-cmd vmsvc/power.off.” (2022-11-02)
       * BlackCat stops the targeted service using the ControlService function (2022-07-19)
+
+
 
 * **Tactic: TA0043 - Reconnaissance**
   * **Technique: T1595 - Active Scanning**
