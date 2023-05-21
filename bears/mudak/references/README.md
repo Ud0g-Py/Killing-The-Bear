@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/bear_mudak_poster (1).png
+cover: ../../../.gitbook/assets/bear_mudak_poster.png
 coverY: 0
 ---
 
@@ -12,4 +12,3 @@ coverY: 0
 * [x] [noberus-ransomware-darkside-and-blackmatter-successor-continues-to-evolve-its-tactics-or-broadcom-so.md](noberus-ransomware-darkside-and-blackmatter-successor-continues-to-evolve-its-tactics-or-broadcom-so.md "mention") (2022-09-25)
 * [x] [ttps-associated-with-a-new-version-of-the-blackcat-ransomware.md](ttps-associated-with-a-new-version-of-the-blackcat-ransomware.md "mention") (2022-09-07)
 * [x] [a-deep-dive-into-alphv-blackcat-ransomware.md](a-deep-dive-into-alphv-blackcat-ransomware.md "mention") (2022-07-19)
-
