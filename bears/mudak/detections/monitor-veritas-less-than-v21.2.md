@@ -1,3 +1,8 @@
+---
+cover: ../../../.gitbook/assets/bear_mudak_poster (1).png
+coverY: 0
+---
+
 # Monitor - Veritas < v21.2
 
 1. Defenders should monitor internet-exposed Veritas Backup Exec Windows installations, for versions before 21.2.

@@ -5,8 +5,8 @@ coverY: 0
 
 # References
 
-* [ ] [ma-921.042023-mycert-advisory-blackcat-ransomware.md](ma-921.042023-mycert-advisory-blackcat-ransomware.md "mention") (2023-04-11)
-* [ ] [alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md](alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md "mention") (2023-04-04)
+* [x] [ma-921.042023-mycert-advisory-blackcat-ransomware.md](ma-921.042023-mycert-advisory-blackcat-ransomware.md "mention") (2023-04-11)
+* [x] [alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md](alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md "mention") (2023-04-04)
 * [x] [blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md](blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md "mention") (2022-11-09)
 * [x] [esxi-targeting-ransomware-tactics-and-techniques-part-2.md](esxi-targeting-ransomware-tactics-and-techniques-part-2.md "mention")(2022-11-02)
 * [x] [noberus-ransomware-darkside-and-blackmatter-successor-continues-to-evolve-its-tactics-or-broadcom-so.md](noberus-ransomware-darkside-and-blackmatter-successor-continues-to-evolve-its-tactics-or-broadcom-so.md "mention") (2022-09-25)

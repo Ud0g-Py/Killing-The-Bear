@@ -8,6 +8,7 @@ coverY: 0
 * **Tactic: TA0001 - Initial Access**
   * **Technique: T1078 - Valid Accounts**
     * **Reasons:**
+      * "BlackCat/ALPHV ransomware leverages previously compromised user credentials to gain initial access to the victim’s system." (2023-04-11)
       * The article mentions that "the attacker used a malicious browser extension to capture the contractor’s account. Since there was no MFA required, the attacker was able to login to the virtual desktop" (2022-11-09)
   * **Technique: T1190 - Exploit Public-Facing Application**
     * **Reasons:**
@@ -17,8 +18,9 @@ coverY: 0
 
 
 * **Tactic: TA0002 - Execution**
-  * **Technique: T1053.005 - Scheduled Task/Job: At (Windows)**
+  * **Technique: T1053.005 - Scheduled Task/Job: Scheduled Task**
     * **Reasons:**
+      * "The malware uses Windows Task Scheduler to configure malicious Group Policy Objects (GPOs) to deploy ransomware." (2023-04-11)
       * The article mentions that "UNC4466 added immediate tasks to the default domain policy" and "These tasks were configured to perform actions which disabled security software, downloaded the ALPHV encryptor, then execute it" (2023-04-04)
   * **Technique: T1059 - Command and Scripting Interpreter**
     * **Reasons:**
@@ -36,9 +38,11 @@ coverY: 0
       * The article mentions that the ransomware installed the cURL tool to download additional files. Process Hacker was also installed by the malware and could be used to dump the memory of the LSASS process. In the same directory with Process Hacker, the BlackCat ransomware dropped a copy of the PEView tool, which is a viewer for Portable Executable (PE) files. (2022-09-07)
   * **Technique: T1059.001 - Command and Scripting Interpreter: PowerShell**
     * **Reasons:**
+      * "Initial malware deployment leverages PowerShell scripts in conjunction with Cobalt Strike and disables security features within the victim’s network." (2023-04-11)
       * The article mentions that "UNC4466 also used the built in Set-MpPrefernce cmdlet to disable Microsoft Defender’s real-time monitoring capability" (2023-04-04)
   * **Technique: T1059.003 - Command and Scripting Interpreter: Windows Command Shell**
     * **Reasons:**
+      * "Run.bat executes a callout command to an external server using SSH – file names may change depending on the company and systems affected." (2023-04-11)
       * The article mentions that "The attackers used batch files to execute multiple PsExec commands to deploy payloads to the identified machines" (2022-11-09)
       * The article mentions that "Get device UUID", "Stop IIS service", "Clean shadow copies", and "List Windows event logs names and try to clear them all" (2022-11-09)
   * **Technique: T1047 - Windows Management Instrumentation**
@@ -56,6 +60,9 @@ coverY: 0
 
 
 * **Tactic: TA0005 - Defense Evasion**
+  * **Technique: T1484.001 - Domain Policy Modification: Group Policy Modification**
+    * **Reasons:**
+      * "The malware uses Windows Task Scheduler to configure malicious Group Policy Objects (GPOs) to deploy ransomware." (2023-04-11)
   * **Technique: T1140 - Deobfuscate/Decode Files or Information**
     * **Reasons:**
       * The content of the ransom note and the text that will appear on the Desktop Wallpaper are decrypted by the ransomware (2022-07-19)
@@ -69,6 +76,7 @@ coverY: 0
       * Processes spawned include cmd.exe with a command to modify the registry (2022-07-19)
   * **Technique: T1562.001 - Impair Defenses: Disable or Modify Tools**
     * **Reasons:**
+      * "The payload terminates specific services related to backups, antivirus applications, databases, Windows internet services, and ESXi virtual machines (VMs)." (2023-04-11)
       * The article mentions that "UNC4466 added immediate tasks to the default domain policy" and "These tasks were configured to perform actions which disabled security software, downloaded the ALPHV encryptor, then execute it" (2023-04-04)
       * The article mentions that "UNC4466 also used the built in Set-MpPrefernce cmdlet to disable Microsoft Defender’s real-time monitoring capability" (2023-04-04)
       * The ransomware deletes all volume shadow copies using the vssadmin.exe utility (2022-07-19)
@@ -108,6 +116,9 @@ coverY: 0
 
 
 * **Tactic: TA0004 - Privilege Escalation**
+  * **Technique: T1078 - Valid Accounts: Domain Accounts**
+    * **Reasons:**
+      * "Once the malware establishes access, it compromises Active Directory user and administrator accounts." (2023-04-11)
   * **Technique: T1027 - Obfuscated Files or Information**
     * **Reasons:**
       * The article mentions that "The second one started to encrypt the configuration, where the decryption key is passed via an argument named 'access token'. In other words, the latest version of BlackCat cannot be executed or have its configuration extracted if the access token is unknown" (2022-11-09)
@@ -172,6 +183,10 @@ coverY: 0
 
 
 * **Tactic: TA0011 - Command and Control**
+  * **Technique: T1071 - Application Layer Protocol**
+    * **Reasons:**
+      * "Run.bat executes a callout command to an external server using SSH – file names may change depending on the company and systems affected." (2023-04-11)
+* **Tactic: TA0006 - Credential Access** 
   * **Technique: T1090.001 - Proxy: Internal Proxy**
     * **Reasons:**
       * The article mentions that "UNC4466 made heavy use of the Background Intelligent Transfer Service (BITS) to download additional tools such as LAZAGNE, LIGOLO, WINSW, RCLONE, and finally the ALPHV ransomware encryptor" (2023-04-04)
@@ -187,6 +202,7 @@ coverY: 0
 * **Tactic: TA0040 - Impact**
   * **Technique: T1490 - Inhibit System Recovery: Disable System Tools**
     * **Reasons:**
+      * "A new variant of the BlackCat ransomware binary restarts the affected system to safe mode before proceeding to its encryption routine. It also disables system recovery and deletes volume shadow copies to inhibit the recovery of the affected systems." (2023-04-11)
       * The article mentions that "Clean shadow copies" (2022-11-09)
       * The ransomware deletes all volume shadow copies using the vssadmin.exe utility (2022-07-19)
       * There is also a second process that is responsible for deleting all volume shadow copies with wmic (2022-07-19)
