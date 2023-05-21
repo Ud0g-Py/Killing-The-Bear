@@ -5,6 +5,7 @@ coverY: 0
 
 # Detections
 
+* [pseudocode-powershell-phishing-mocky.io.md](pseudocode-powershell-phishing-mocky.io.md "mention") (2023-04-30)
 * [yara-apt\_apt28\_phishing\_webpage\_ubiquity.md](yara-apt\_apt28\_phishing\_webpage\_ubiquity.md "mention") (2023-04-28)
 * [yara-apt\_apt28\_ukrnet\_2fa\_bypass\_python\_script.md](yara-apt\_apt28\_ukrnet\_2fa\_bypass\_python\_script.md "mention") (2023-04-28)
 * [yara-apt\_apt28\_phishing\_webpage\_webhook.md](yara-apt\_apt28\_phishing\_webpage\_webhook.md "mention") (2023-04-28)

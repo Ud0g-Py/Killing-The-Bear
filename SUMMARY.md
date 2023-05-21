@@ -51,6 +51,7 @@
   * [Emulations](bears/syndicate-85/emulations.md)
   * [Telemetry](bears/syndicate-85/telemetry.md)
   * [Detections](bears/syndicate-85/detections/README.md)
+    * [Pseudocode Powershell phishing mocky.io](bears/syndicate-85/detections/pseudocode-powershell-phishing-mocky.io.md)
     * [(yara) apt\_APT28\_Phishing\_webpage\_Ubiquity](bears/syndicate-85/detections/yara-apt\_apt28\_phishing\_webpage\_ubiquity.md)
     * [(yara) apt\_APT28\_UKRNET\_2FA\_Bypass\_Python\_Script](bears/syndicate-85/detections/yara-apt\_apt28\_ukrnet\_2fa\_bypass\_python\_script.md)
     * [(yara) apt\_APT28\_Phishing\_webpage\_webhook](bears/syndicate-85/detections/yara-apt\_apt28\_phishing\_webpage\_webhook.md)
