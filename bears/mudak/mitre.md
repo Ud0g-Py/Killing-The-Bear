@@ -39,6 +39,7 @@ coverY: 0
       * The article mentions that "UNC4466 also used the built in Set-MpPrefernce cmdlet to disable Microsoft Defender’s real-time monitoring capability" (2023-04-04)
   * **Technique: T1059.003 - Command and Scripting Interpreter: Windows Command Shell**
     * **Reasons:**
+      * The malicious kernel driver exposes an IOCTL interface that allows the user mode client, tjr.exe, to issue commands that the driver will execute with Windows kernel privileges. (2023-05-22)
       * "Run.bat executes a callout command to an external server using SSH – file names may change depending on the company and systems affected." (2023-04-11)
       * The article mentions that "The attackers used batch files to execute multiple PsExec commands to deploy payloads to the identified machines" (2022-11-09)
       * The article mentions that "Get device UUID", "Stop IIS service", "Clean shadow copies", and "List Windows event logs names and try to clear them all" (2022-11-09)
@@ -117,6 +118,7 @@ coverY: 0
       * "Once the malware establishes access, it compromises Active Directory user and administrator accounts." (2023-04-11)
   * **Technique: T1027 - Obfuscated Files or Information**
     * **Reasons:**
+      * The driver is obfuscated using Safengine Protector v2.4.0.0 tool, which renders static analysis techniques unreliable. By loading the obfuscated driver and trying to build a user mode client to observe the exposed IOCTL interface, we can determine the function of each IOCTL code. (2023-05-22)
       * The article mentions that "The second one started to encrypt the configuration, where the decryption key is passed via an argument named 'access token'. In other words, the latest version of BlackCat cannot be executed or have its configuration extracted if the access token is unknown" (2022-11-09)
   * **Technique: T1078 - Valid Accounts**
     * **Reasons:**
@@ -199,6 +201,8 @@ coverY: 0
       * Interestingly, BlackCat creates intermediary files called “checkpoints-\<encrypted file name>” during the encryption process (2022-07-19)
   * **Technique: T1489 - Service Stop**
     * **Reasons:**
+      * "From our analysis of what occurs when a user interfaces with this driver, we observed that it only uses one of the exposed Device Input and Output Control (IOCTL) code — Kill Process, which is used to kill security agent processes installed on the system," explains the Trend Micro report. (2023-05-22)
+      * The new driver used by the BlackCat ransomware operation helps them elevate their privileges on compromised machines and then stop processes relating to security agents. (2023-05-22)
       * The article mentions that "Stop IIS service" (2022-11-09)
       * “Before the encryption starts, the ESXi encryptor of almost any ransomware family tries to shut down running virtual machines with either the esxcli command or vim-cmd vmsvc/power.off.” (2022-11-02)
       * BlackCat stops the targeted service using the ControlService function (2022-07-19)
