@@ -12,6 +12,7 @@
   * [Vulnerabilities](bears/mudak/vulnerabilities.md)
   * [Mitre](bears/mudak/mitre.md)
   * [References](bears/mudak/references/README.md)
+    * [Malicious Windows kernel drivers used in BlackCat ransomware attacks](bears/mudak/references/malicious-windows-kernel-drivers-used-in-blackcat-ransomware-attacks.md)
     * [Threat Actor Profile: ALPHV Ransomware Group](bears/mudak/references/threat-actor-profile-alphv-ransomware-group.md)
     * [BlackCat Ransomware Deploys New Signed Kernel Driver](bears/mudak/references/blackcat-ransomware-deploys-new-signed-kernel-driver.md)
     * [MA-921.042023: MyCERT Advisory - BlackCat Ransomware](bears/mudak/references/ma-921.042023-mycert-advisory-blackcat-ransomware.md)

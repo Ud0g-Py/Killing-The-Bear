@@ -1,10 +1,11 @@
 ---
-cover: ../../../.gitbook/assets/bear_mudak_poster.png
+cover: ../../../.gitbook/assets/bear_mudak_poster (1).png
 coverY: 0
 ---
 
 # References
 
+* [x] [malicious-windows-kernel-drivers-used-in-blackcat-ransomware-attacks.md](malicious-windows-kernel-drivers-used-in-blackcat-ransomware-attacks.md "mention") (2023-05-22)
 * [x] [threat-actor-profile-alphv-ransomware-group.md](threat-actor-profile-alphv-ransomware-group.md "mention") (2023-05-22)
 * [x] [blackcat-ransomware-deploys-new-signed-kernel-driver.md](blackcat-ransomware-deploys-new-signed-kernel-driver.md "mention") (2023-05-22)
 * [x] [ma-921.042023-mycert-advisory-blackcat-ransomware.md](ma-921.042023-mycert-advisory-blackcat-ransomware.md "mention") (2023-04-11)
