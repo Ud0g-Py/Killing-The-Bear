@@ -14,9 +14,6 @@ coverY: 0
     * **Reasons:**
       * The article mentions that "UNC4466 gained access to an internet-exposed Windows server, running Veritas Backup Exec version 21.0 using the Metasploit module \`exploit/multi/veritas/beagent\_sha\_auth\_rce\`" (2023-04-04)
       * The article mentions that the entry point in the organization was an Exchange server that was vulnerable to Microsoft Exchange vulnerabilities. Multiple webshells have been identified on the impacted server. (2022-09-07)
-
-
-
 * **Tactic: TA0002 - Execution**
   * **Technique: T1053.005 - Scheduled Task/Job: Scheduled Task**
     * **Reasons:**
@@ -56,9 +53,6 @@ coverY: 0
     * **Reasons:**
       * The executable takes a snapshot of all processes and threads in the system (2022-07-19)
       * The processes are enumerated using the Process32FirstW and Process32NextW APIs (2022-07-19)
-
-
-
 * **Tactic: TA0005 - Defense Evasion**
   * **Technique: T1484.001 - Domain Policy Modification: Group Policy Modification**
     * **Reasons:**
@@ -89,9 +83,13 @@ coverY: 0
   * **Technique: T1070.004 - Indicator Removal: File Deletion**
     * **Reasons:**
       * The article mentions that “Self-destruct: Configuration option, which, when enabled, will make the tool self-destruct and quit if executed in a non-corporate environment (outside of a Windows domain).” (2022-09-25)
-
-
-
+  * **Technique: T1553.002 - Subvert Trust Controls: Code Signing**
+    * **Reasons:**
+      * “the malicious actors deployed another kernel driver signed by a stolen or leaked cross-signing certificate.” (2023-05-22)
+  * **Technique: T1218 - System Binary Proxy Execution**
+    * **Reasons:**
+      * “Our analysis sheds light on this new capability, which involves the use of a signed kernel driver for evasion.” (2023-05-22)
+      * “Malicious actors use different approaches to sign their malicious kernel drivers: Typically by abusing Microsoft signing portals, using leaked and stolen certificates, or using underground services.” (2023-05-22)
 * **Tactic: TA0007 - Discovery**
   * **Technique: T1087.002 - Account Discovery: Domain Account**
     * **Reasons:**
@@ -101,6 +99,7 @@ coverY: 0
       * The article mentions that "UNC4466 used Internet Explorer to download Famatech’s Advanced IP Scanner" and "This tool is capable of scanning individual IP addresses or IP address ranges for open ports" (2023-04-04)
   * **Technique: T1082 - System Information Discovery**
     * **Reasons:**
+      * “Acquires the universally unique identifier (UUID) from the host via the Windows Management Interface Command-line (WMIC)” (2023-05-22)
       * The article mentions that "Get device UUID" (2022-11-09)
       * The malicious binary obtains information about the current system via a function call to GetSystemInfo (2022-07-19)
   * **Technique: T1069.002 - Permission Groups Discovery: Domain Groups**
@@ -112,9 +111,6 @@ coverY: 0
   * **Technique: T1007.001 System Service Discovery: Windows Service Enumeration**
     * **Reasons:**
       * The process obtains a list of active services using EnumServicesStatusExW (2022-07-19)
-
-
-
 * **Tactic: TA0004 - Privilege Escalation**
   * **Technique: T1078 - Valid Accounts: Domain Accounts**
     * **Reasons:**
@@ -133,9 +129,9 @@ coverY: 0
     * **Reasons:**
       * Privilege escalation via UAC bypass using CMSTPLUA COM interface (2022-07-19)
       * BlackCat ransomware uses the auto-elevated CMSTPLUA interface {3E5FC7F9-9A51-4367-9063-A120244FBEC7} in order to escalate privileges (2022-07-19)
-
-
-
+  * **Technique: T1068 - Exploitation for Privilege Escalation**
+    * **Reasons:**
+      * Escalate privileges via the bypassing of User Account Control (UAC); Masquerade\_PEB; the exploitation of ‘CreateProcessWithLogonW’ API tracked as CVE-2016–0099 (2023-05-22)
 * **Tactic: TA0006 - Credential Access**
   * **Technique: T1555 - Credentials from Password Stores**
     * **Reasons:**
@@ -147,9 +143,6 @@ coverY: 0
   * **Technique: T1003 - OS Credential Dumping**
     * **Reasons:**
       * The article mentions that “At least one affiliate of the Noberus ransomware operation was spotted in late August using information-stealing malware that is designed to steal credentials stored by Veeam backup software.” (2022-09-25)
-
-
-
 * **Tactic: TA0008 - Lateral Movement**
   * **Technique: T1021.002 - Remote Services: SMB/Windows Admin Shares**
     * **Reasons:**
@@ -157,16 +150,10 @@ coverY: 0
   * **Technique: T1021.001 - Remote Services: Remote Desktop Protocol**
     * **Reasons:**
       * The article mentions that after dumping credentials using Mimikatz, the malware pivots from one machine to another via Remote Desktop Protocol (RDP). (2022-09-07)
-
-
-
 * **Tactic: TA0009 - Collection**
   * **Technique: T1560 - Archive Collected Data**
     * **Reasons:**
       * The article mentions that “Exmatter was designed to steal specific file types from a number of selected directories and upload them to an attacker-controlled server prior to deployment of the ransomware itself on the victim’s network.” (2022-09-25)
-
-
-
 * **Tactic: TA0010 - Exfiltration**
   * **Technique: T1041 - Exfiltration Over C2 Channel**
     * **Reasons:**
@@ -179,14 +166,11 @@ coverY: 0
   * **Technique: T1567.002 - Exfiltration Over Web Service: Exfiltration to Cloud Storage**
     * **Reasons:**
       * The article mentions that once the threat actor decided which files to exfiltrate, the malware compressed them using WinRAR or 7zip. The ransomware installed a tool called rclone that is utilized to upload data to cloud storage providers. A second tool called MEGAsync is also installed by the process, which can upload data to the MEGA Cloud Storage. (2022-09-07)
-
-
-
 * **Tactic: TA0011 - Command and Control**
   * **Technique: T1071 - Application Layer Protocol**
     * **Reasons:**
       * "Run.bat executes a callout command to an external server using SSH – file names may change depending on the company and systems affected." (2023-04-11)
-* **Tactic: TA0006 - Credential Access** 
+* **Tactic: TA0006 - Credential Access**
   * **Technique: T1090.001 - Proxy: Internal Proxy**
     * **Reasons:**
       * The article mentions that "UNC4466 made heavy use of the Background Intelligent Transfer Service (BITS) to download additional tools such as LAZAGNE, LIGOLO, WINSW, RCLONE, and finally the ALPHV ransomware encryptor" (2023-04-04)
@@ -196,9 +180,6 @@ coverY: 0
       * The article mentions that "UNC4466 used Internet Explorer to download Famatech’s Advanced IP Scanner" (2023-04-04)
       * The article mentions that after gaining access to the internal network, the ransomware installed the legitimate tools MobaXterm and mottynew.exe (MobaXterm terminal). (2022-09-07)
       * The article mentions that the ransomware installed the cURL tool to download additional files. Process Hacker was also installed by the malware and could be used to dump the memory of the LSASS process. In the same directory with Process Hacker, the BlackCat ransomware dropped a copy of the PEView tool, which is a viewer for Portable Executable (PE) files. (2022-09-07)
-
-
-
 * **Tactic: TA0040 - Impact**
   * **Technique: T1490 - Inhibit System Recovery: Disable System Tools**
     * **Reasons:**
@@ -221,13 +202,10 @@ coverY: 0
       * The article mentions that "Stop IIS service" (2022-11-09)
       * “Before the encryption starts, the ESXi encryptor of almost any ransomware family tries to shut down running virtual machines with either the esxcli command or vim-cmd vmsvc/power.off.” (2022-11-02)
       * BlackCat stops the targeted service using the ControlService function (2022-07-19)
-
-
-
 * **Tactic: TA0043 - Reconnaissance**
   * **Technique: T1595 - Active Scanning**
     * **Reasons:**
       * The article mentions that "one commercial Internet scanning service reported over 8500 IP addresses which advertise the 'Symantec/Veritas Backup Exec ndmp' service on the default port 10000, as well as port 9000 and port 10001" (2023-04-04)
-  * **Technique: T1592 -  Gather Victim Host Information**
+  * **Technique: T1592 - Gather Victim Host Information**
     * **Reasons:**
       * The article mentions that "UNC4466 used Internet Explorer to download Famatech’s Advanced IP Scanner" and "This tool is capable of scanning individual IP addresses or IP address ranges for open ports, and returns hostnames, operating system and hardware manufacturer information" (2023-04-04)

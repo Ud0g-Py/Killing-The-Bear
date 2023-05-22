@@ -12,6 +12,8 @@
   * [Vulnerabilities](bears/mudak/vulnerabilities.md)
   * [Mitre](bears/mudak/mitre.md)
   * [References](bears/mudak/references/README.md)
+    * [Threat Actor Profile: ALPHV Ransomware Group](bears/mudak/references/threat-actor-profile-alphv-ransomware-group.md)
+    * [BlackCat Ransomware Deploys New Signed Kernel Driver](bears/mudak/references/blackcat-ransomware-deploys-new-signed-kernel-driver.md)
     * [MA-921.042023: MyCERT Advisory - BlackCat Ransomware](bears/mudak/references/ma-921.042023-mycert-advisory-blackcat-ransomware.md)
     * [ALPHV Ransomware Affiliate Targets Vulnerable Backup Installations to Gain Initial Access | Mandiant](bears/mudak/references/alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md)
     * [BlackCat Ransomware: Tactics and Techniques From a Targeted Attack](bears/mudak/references/blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md)

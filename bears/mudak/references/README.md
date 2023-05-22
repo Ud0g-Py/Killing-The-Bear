@@ -5,6 +5,8 @@ coverY: 0
 
 # References
 
+* [x] [threat-actor-profile-alphv-ransomware-group.md](threat-actor-profile-alphv-ransomware-group.md "mention") (2023-05-22)
+* [x] [blackcat-ransomware-deploys-new-signed-kernel-driver.md](blackcat-ransomware-deploys-new-signed-kernel-driver.md "mention") (2023-05-22)
 * [x] [ma-921.042023-mycert-advisory-blackcat-ransomware.md](ma-921.042023-mycert-advisory-blackcat-ransomware.md "mention") (2023-04-11)
 * [x] [alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md](alphv-ransomware-affiliate-targets-vulnerable-backup-installations-to-gain-initial-access-or-mandian.md "mention") (2023-04-04)
 * [x] [blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md](blackcat-ransomware-tactics-and-techniques-from-a-targeted-attack.md "mention") (2022-11-09)
