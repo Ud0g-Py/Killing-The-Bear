@@ -97,6 +97,7 @@
     * [Andrii Kolpakov](bears/rockport/members/andrii-kolpakov.md)
 * [Syndicate-6192](bears/syndicate-6192/README.md)
   * [References](bears/syndicate-6192/references/README.md)
+    * [APT 29 Initial Access Killchain -MITRE ATT@CK Mapping](bears/syndicate-6192/references/apt-29-initial-access-killchain-mitre-att-ck-mapping.md)
     * [Emulating Recent Activity from the Russian Adversary Nobelium / APT29](bears/syndicate-6192/references/emulating-recent-activity-from-the-russian-adversary-nobelium-apt29.md)
     * [Espionage campaign linked to Russian intelligence services](bears/syndicate-6192/references/espionage-campaign-linked-to-russian-intelligence-services.md)
     * [OSINT ChatGPT Query of the the Day (QoD) - APT 29](bears/syndicate-6192/references/osint-chatgpt-query-of-the-the-day-qod-apt-29.md)

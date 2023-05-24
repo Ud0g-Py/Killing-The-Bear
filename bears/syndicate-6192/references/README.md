@@ -1,5 +1,6 @@
 # References
 
+* [ ] [apt-29-initial-access-killchain-mitre-att-ck-mapping.md](apt-29-initial-access-killchain-mitre-att-ck-mapping.md "mention") (2023-05-24)
 * [ ] [emulating-recent-activity-from-the-russian-adversary-nobelium-apt29.md](emulating-recent-activity-from-the-russian-adversary-nobelium-apt29.md "mention") (2023-05-04)
 * [ ] [espionage-campaign-linked-to-russian-intelligence-services.md](espionage-campaign-linked-to-russian-intelligence-services.md "mention") (2023-04-13)
 * [ ] [osint-chatgpt-query-of-the-the-day-qod-apt-29.md](osint-chatgpt-query-of-the-the-day-qod-apt-29.md "mention") (2023-04-01)
