@@ -98,6 +98,7 @@
 * [Syndicate-6192](bears/syndicate-6192/README.md)
   * [Mitre](bears/syndicate-6192/mitre.md)
   * [References](bears/syndicate-6192/references/README.md)
+    * [New tricks of APT29 – update on the CERT.PL report](bears/syndicate-6192/references/new-tricks-of-apt29-update-on-the-cert.pl-report.md)
     * [APT 29 Initial Access Killchain -MITRE ATT@CK Mapping](bears/syndicate-6192/references/apt-29-initial-access-killchain-mitre-att-ck-mapping.md)
     * [Emulating Recent Activity from the Russian Adversary Nobelium / APT29](bears/syndicate-6192/references/emulating-recent-activity-from-the-russian-adversary-nobelium-apt29.md)
     * [Espionage campaign linked to Russian intelligence services](bears/syndicate-6192/references/espionage-campaign-linked-to-russian-intelligence-services.md)
