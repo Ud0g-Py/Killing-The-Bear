@@ -96,6 +96,7 @@
     * [Fedir Hladyr](bears/rockport/members/fedir-hladyr.md)
     * [Andrii Kolpakov](bears/rockport/members/andrii-kolpakov.md)
 * [Syndicate-6192](bears/syndicate-6192/README.md)
+  * [Mitre](bears/syndicate-6192/mitre.md)
   * [References](bears/syndicate-6192/references/README.md)
     * [APT 29 Initial Access Killchain -MITRE ATT@CK Mapping](bears/syndicate-6192/references/apt-29-initial-access-killchain-mitre-att-ck-mapping.md)
     * [Emulating Recent Activity from the Russian Adversary Nobelium / APT29](bears/syndicate-6192/references/emulating-recent-activity-from-the-russian-adversary-nobelium-apt29.md)
