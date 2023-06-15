@@ -1,3 +1,9 @@
+---
+description: '2023-06-02'
+---
+
+# BlackCat ransomware gang updates tradecraft with stealth and speed
+
 BlackCat ransomware gang updates tradecraft with stealth and speed
 Simon Hendery
 BlackCat ransomware gang updates malware with stealth and speed
