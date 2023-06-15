@@ -5,6 +5,7 @@ coverY: 0
 
 # References
 
+* [x] [blackcat-ransomware-gang-updated-tradecraft-with-stealth-and-speed.md](blackcat-ransomware-gang-updated-tradecraft-with-stealth-and-speed.md "mention") (2023-06-02)
 * [x] [malicious-windows-kernel-drivers-used-in-blackcat-ransomware-attacks.md](malicious-windows-kernel-drivers-used-in-blackcat-ransomware-attacks.md "mention") (2023-05-22)
 * [x] [threat-actor-profile-alphv-ransomware-group.md](threat-actor-profile-alphv-ransomware-group.md "mention") (2023-05-22)
 * [x] [blackcat-ransomware-deploys-new-signed-kernel-driver.md](blackcat-ransomware-deploys-new-signed-kernel-driver.md "mention") (2023-05-22)

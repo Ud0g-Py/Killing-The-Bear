@@ -14,6 +14,8 @@ coverY: 0
     * **Reasons:**
       * The article mentions that "UNC4466 gained access to an internet-exposed Windows server, running Veritas Backup Exec version 21.0 using the Metasploit module \`exploit/multi/veritas/beagent\_sha\_auth\_rce\`" (2023-04-04)
       * The article mentions that the entry point in the organization was an Exchange server that was vulnerable to Microsoft Exchange vulnerabilities. Multiple webshells have been identified on the impacted server. (2022-09-07)
+
+
 * **Tactic: TA0002 - Execution**
   * **Technique: T1053.005 - Scheduled Task/Job: Scheduled Task**
     * **Reasons:**
@@ -55,8 +57,14 @@ coverY: 0
       * The executable takes a snapshot of all processes and threads in the system (2022-07-19)
       * The processes are enumerated using the Process32FirstW and Process32NextW APIs (2022-07-19)
 * **Tactic: TA0005 - Defense Evasion**
+  * **Technique: T1222.001 - File and Directory Permissions Modification: Windows File and Directory Permissions Modification**
+    * **Procedures:**
+      * ```cmd.exe /c "fsutil behavior set SymlinkEvaluation R2L:1"``` (2023-04-04)
+      * ```cmd.exe /c "fsutil behavior set SymlinkEvaluation R2R:1"``` (2023-04-04)
   * **Technique: T1484.001 - Domain Policy Modification: Group Policy Modification**
     * **Reasons:**
+      * The group's affiliates continued to abuse the functionality of Group Policy Objects (GPO), both to deploy tools and to interfere with security measures. (2023-06-02)  
+      * "Attackers displaying a nuanced understanding of Active Directory can abuse GPOs to great effect for swift mass malware deployment." (2023-06-02) 
       * "The malware uses Windows Task Scheduler to configure malicious Group Policy Objects (GPOs) to deploy ransomware." (2023-04-11)
   * **Technique: T1140 - Deobfuscate/Decode Files or Information**
     * **Reasons:**
@@ -69,6 +77,8 @@ coverY: 0
   * **Technique: T1112.001 Modify Registry: Windows Registry**
     * **Reasons:**
       * Processes spawned include cmd.exe with a command to modify the registry (2022-07-19)
+    * **Procedures:**
+      * ```cmd.exe /c "reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters /v MaxMpxCt /d 65535 /t REG_DWORD /f"``` (2022-07-19)
   * **Technique: T1562.001 - Impair Defenses: Disable or Modify Tools**
     * **Reasons:**
       * "The payload terminates specific services related to backups, antivirus applications, databases, Windows internet services, and ESXi virtual machines (VMs)." (2023-04-11)
@@ -81,6 +91,8 @@ coverY: 0
       * The article mentions that "Apart from clearing event logs" (2023-04-04)
       * The article mentions that "List Windows event logs names and try to clear them all" (2022-11-09)
       * The ransomware tries to clear all event logs, however, the command is incorrect and returns an error (2022-07-19)
+    * **Procedures:**
+      * ```for /F \”tokens=*\” %1 in (‘wevtutil.exe el’) DO wevtutil.exe cl %1``` (2022-07-19)
   * **Technique: T1070.004 - Indicator Removal: File Deletion**
     * **Reasons:**
       * The article mentions that “Self-destruct: Configuration option, which, when enabled, will make the tool self-destruct and quit if executed in a non-corporate environment (outside of a Windows domain).” (2022-09-25)
@@ -92,6 +104,9 @@ coverY: 0
       * “Our analysis sheds light on this new capability, which involves the use of a signed kernel driver for evasion.” (2023-05-22)
       * “Malicious actors use different approaches to sign their malicious kernel drivers: Typically by abusing Microsoft signing portals, using leaked and stolen certificates, or using underground services.” (2023-05-22)
 * **Tactic: TA0007 - Discovery**
+  * **Technique: T1135 - Network Share Discovery**
+    * **Procedures:**
+      * ```net use \\[computer name]  /user:[domain]\[user] [password] /persistent:no``` (2023-07-19)
   * **Technique: T1087.002 - Account Discovery: Domain Account**
     * **Reasons:**
       * The article mentions that "UNC4466 also made use of ADRecon to gather network, account, and host information in the victim’s environment" (2023-04-04
@@ -103,6 +118,8 @@ coverY: 0
       * “Acquires the universally unique identifier (UUID) from the host via the Windows Management Interface Command-line (WMIC)” (2023-05-22)
       * The article mentions that "Get device UUID" (2022-11-09)
       * The malicious binary obtains information about the current system via a function call to GetSystemInfo (2022-07-19)
+    * **Procedures:**
+      * ```cmd.exe /c "wmic csproduct get UUID"``` (2022-07-19)
   * **Technique: T1069.002 - Permission Groups Discovery: Domain Groups**
     * **Reasons:**
       * There is a call to SHTestTokenMembership that verifies whether the user token is a member of the Administrators group in the built-in domain (2022-07-19)
@@ -112,6 +129,9 @@ coverY: 0
   * **Technique: T1007.001 System Service Discovery: Windows Service Enumeration**
     * **Reasons:**
       * The process obtains a list of active services using EnumServicesStatusExW (2022-07-19)
+  * **Technique: T1049 - System Network Connections Discovery**
+    * **Procedures:**
+      * ```bash cmd.exe /c "whoami"``` (2022-07-19)
 * **Tactic: TA0004 - Privilege Escalation**
   * **Technique: T1078 - Valid Accounts: Domain Accounts**
     * **Reasons:**
@@ -183,13 +203,18 @@ coverY: 0
       * The article mentions that after gaining access to the internal network, the ransomware installed the legitimate tools MobaXterm and mottynew.exe (MobaXterm terminal). (2022-09-07)
       * The article mentions that the ransomware installed the cURL tool to download additional files. Process Hacker was also installed by the malware and could be used to dump the memory of the LSASS process. In the same directory with Process Hacker, the BlackCat ransomware dropped a copy of the PEView tool, which is a viewer for Portable Executable (PE) files. (2022-09-07)
 * **Tactic: TA0040 - Impact**
-  * **Technique: T1490 - Inhibit System Recovery: Disable System Tools**
+  * **Technique: T1490 - Inhibit System Recovery**
     * **Reasons:**
       * "A new variant of the BlackCat ransomware binary restarts the affected system to safe mode before proceeding to its encryption routine. It also disables system recovery and deletes volume shadow copies to inhibit the recovery of the affected systems." (2023-04-11)
       * The article mentions that "Clean shadow copies" (2022-11-09)
       * The ransomware deletes all volume shadow copies using the vssadmin.exe utility (2022-07-19)
       * There is also a second process that is responsible for deleting all volume shadow copies with wmic (2022-07-19)
       * The binary disables Automatic Repair using the bcdedit tool (2022-07-19)
+    * **Procedures:**
+      * ```cmd.exe /c "bcdedit /set {default} recoveryenabled No"``` (2022-07-19)
+      * ```cmd.exe /c "bcdedit /set {default}"``` (2022-07-19)
+      * ```cmd.exe /c "wmic.exe Shadowcopy Delete"``` (2022-07-19)
+      * ```cmd.exe /c "vssadmin.exe Delete Shadows /all /quiet"``` (2022-07-19)
   * **Technique: T1491.001 - Defacement: Internal Defacement**
     * **Reasons:**
       * The content of the ransom note and the text that will appear on the Desktop Wallpaper are decrypted by the ransomware (2022-07-19)
@@ -206,6 +231,8 @@ coverY: 0
       * The article mentions that "Stop IIS service" (2022-11-09)
       * “Before the encryption starts, the ESXi encryptor of almost any ransomware family tries to shut down running virtual machines with either the esxcli command or vim-cmd vmsvc/power.off.” (2022-11-02)
       * BlackCat stops the targeted service using the ControlService function (2022-07-19)
+    * **Procedures:**
+      * ```cmd.exe /c "iisreset.exe /stop"``` (2022-07-19)
 * **Tactic: TA0043 - Reconnaissance**
   * **Technique: T1595 - Active Scanning**
     * **Reasons:**
