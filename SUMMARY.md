@@ -12,6 +12,7 @@
   * [Vulnerabilities](bears/mudak/vulnerabilities.md)
   * [Mitre](bears/mudak/mitre.md)
   * [References](bears/mudak/references/README.md)
+    * [BlackCat ransomware gang updates tradecraft with stealth and speed BlackCat ransomware gang updates](bears/mudak/references/blackcat-ransomware-gang-updates-tradecraft-with-stealth-and-speed-blackcat-ransomware-gang-updates.md)
     * [Malicious Windows kernel drivers used in BlackCat ransomware attacks](bears/mudak/references/malicious-windows-kernel-drivers-used-in-blackcat-ransomware-attacks.md)
     * [Threat Actor Profile: ALPHV Ransomware Group](bears/mudak/references/threat-actor-profile-alphv-ransomware-group.md)
     * [BlackCat Ransomware Deploys New Signed Kernel Driver](bears/mudak/references/blackcat-ransomware-deploys-new-signed-kernel-driver.md)
