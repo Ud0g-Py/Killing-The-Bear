@@ -5,6 +5,20 @@
 
 ## Bears
 
+* [Balkhala](bears/balkhala/README.md)
+  * [Aliases](bears/balkhala/aliases.md)
+  * [Malware](bears/balkhala/malware.md)
+  * [Tools](bears/balkhala/tools.md)
+  * [Vulnerabilities](bears/balkhala/vulnerabilities.md)
+  * [Mitre](bears/balkhala/mitre.md)
+  * [References](bears/balkhala/references/README.md)
+    * [Cadet Blizzard emerges as a novel and distinct Russian threat actor](bears/balkhala/references/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor.md)
+  * [Emulations](bears/balkhala/emulations.md)
+  * [Telemetry](bears/balkhala/telemetry.md)
+  * [Detections](bears/balkhala/detections/README.md)
+    * [Microsoft 365 Defender - Check for WMIExec Impacket activity with common Cadet Blizzard commands](bears/balkhala/detections/microsoft-365-defender-check-for-wmiexec-impacket-activity-with-common-cadet-blizzard-commands.md)
+    * [Microsoft 365 Defender - Find PowerShell file downloads](bears/balkhala/detections/microsoft-365-defender-find-powershell-file-downloads.md)
+    * [Microsoft 365 Defender - Scheduled task creation, command execution and C2 communication](bears/balkhala/detections/microsoft-365-defender-scheduled-task-creation-command-execution-and-c2-communication.md)
 * [Mudak](bears/mudak/README.md)
   * [Aliases](bears/mudak/aliases.md)
   * [Malware](bears/mudak/malware.md)
