@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/bear_Balkhala_cover.png
+coverY: 0
+---
+
 # Detections
 
 * [microsoft-365-defender-check-for-wmiexec-impacket-activity-with-common-cadet-blizzard-commands.md](microsoft-365-defender-check-for-wmiexec-impacket-activity-with-common-cadet-blizzard-commands.md "mention") (2023-06-14)

@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/bear_Balkhala_cover.png
+coverY: 0
+---
+
 # Vulnerabilities
 
 * **CVE-2021-26084**: Atlassian Confluence Server/Confluence Data Center Webwork OGNL injection - Official Fix - 0.97464
